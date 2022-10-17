@@ -1,34 +1,42 @@
-# Session ID - Session Title
+# DT261 - Simplify Data Integration Between SAP S/4HANA and SAP’s Industry Cloud
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called DT261 - Simplify Data Integration Between SAP S/4HANA and SAP’s Industry Cloud.  
 
 ## Overview
 
-This session introduces attendees to...
+This session focus on the data integration capabilities SAP Industry Cloud's solutions provide. The focus is on how to cofigure the data integration between SAP Industry Cloud's solutions and the backend systems (data sources) - SAP S/4HANA <!--to be added - we need to provide more end user scenario which we enable with IRM and ODS here - Christian?-->.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+To complete exercises bellow, you need access (licenses) for the following SAP solutions:
+- SAP S/4HANA on-prem, version ???<!--to be added by Christian--> and above OR SAP ECC, version ???<!--to be added by Christian--> or above
+- SAP Intelligent Returns Management
+- SAP Order and Delivery Scheduling
+- Data Ingestion for Industry Cloud Solutions
+- SAP Integration Suite
+- SAP Fiory Launchpad
+
+> **Note:**
+> For the on-site TechEd workshop you will be provided with enviroment having above requirements available.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+Excercises must be executed in the order below:
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+<!-- to be validated with Christian and Fabian -->
 
+- [Enable SAP Intelligent Returns Management solution](exercises/ex0/README.md) <!--Stani-->
+- [Enable data integration via Data Ingestion for Industry Cloud](exercises/ex1/README.md)<!--Stani-->
+    - [Enable Data Ingestion for Industry Cloud](exercises/ex1/README.md#exercise-11-sub-exercise-1-description)<!--Stani-->
+    - [Intgerate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex1/README.md#exercise-12-sub-exercise-2-description)
+        - [Integrate Data Ingestion with SAP Integration Suite](exercises/ex1/README.md#exercise-12-sub-exercise-2-description)<!--Stani-->
+        - [Integrate S/4HANA on-prem with SAP Integration Suite](exercises/ex1/README.md#exercise-12-sub-exercise-2-description)<!--Christian-->
+- [Enable SAP Order and Delivery Scheduling](exercises/ex2/README.md) <!--Stani-->
+- [Run the biz scenario with IRM and ODS](exercises/ex3/README.md) <!--Christian-->
   
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
+<!-- 
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
@@ -36,6 +44,8 @@ Your repo must contain the .reuse and LICENSES folder and the License section be
 ## How to obtain support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+
+-->
 
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.

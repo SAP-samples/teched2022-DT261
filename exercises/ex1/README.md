@@ -1,12 +1,16 @@
-# Exercise 1 - Exercise 1 Description
+# Enable SAP Intelligent Returns Management solution
 
-In this exercise, we will create...
+In this exercise, we will enable and configure usage of SAP Intelligent Returns Management Industry Cloud Solution.
 
-## Exercise 1.1 Sub Exercise 1 Description
+## Subscribe for SAP Intelligent Returns Management
 
-After completing these steps you will have created...
+1. Login to SAP BTP cockpit:
+* Open [https://cockpit.us21.hana.ondemand.com/cockpit/#](https://cockpit.us21.hana.ondemand.com/cockpit/#).
+* Provide your user and password.
 
-1. Click here.
+2. Select desired Global Account (if you have multiple ones).
+
+
 <br>![](/exercises/ex1/images/01_01_0010.png)
 
 2.	Insert this line of code.
