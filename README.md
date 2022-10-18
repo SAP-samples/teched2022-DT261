@@ -6,11 +6,11 @@ This repository contains the material for the SAP TechEd 2022 session called DT2
 
 ## Overview
 
-The Consumer Industries Cloud offers a modular cloud suite. Data Ingestion for Industry Cloud (DI) provides the integration into the modular suite. DI promotes the sharing of data between applications and ensures a seemless integration with S/4HANA. In our session we will configure this integration for master data from S/4HANA to the industry cloud.
+The Consumer Industries Cloud offers a modular cloud suite. Data Ingestion for Industry Cloud (DI) provides the integration into the modular suite. DI promotes the sharing of data between applications and ensures a seemless integration with SAP S/4HANA. In our session we will configure this integration for master data from S/4HANA to the industry cloud.
 
-We will use the examples of Order Delivery Schedule (ODS) and Intelligent Returns Management (IRM), two offerings of the modular suite. ODS is in charge of defining possible delivery windows for suppliers based on configuration and S/4HANA master data. IRM streemlines the returns process for a retailer by guiding consumers through the handling of an item and an AI based disposition engine in the warehouse to handle the goods.   
+We will use the examples of SAP Order and Delivery Schedule (ODS) and SAP Intelligent Returns Management (IRM), two offerings of the modular suite. ODS is in charge of defining possible delivery windows for suppliers based on configuration and SAP S/4HANA master data. IRM streemlines the returns process for a retailer by guiding consumers through the handling of an item and an AI based disposition engine in the warehouse to handle the goods.   
 
-Data will flow from S/4HANA to Data Ingestion and be distributed to the applications.
+Data will flow from SAP S/4HANA to Data Ingestion and be distributed to the applications.
 
 ## Requirements
 
