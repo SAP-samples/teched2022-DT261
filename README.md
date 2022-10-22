@@ -30,24 +30,11 @@ Excercises must be executed in the order below:
 <!-- to be validated with Christian and Fabian -->
 
 - [Enable SAP Intelligent Returns Management solution](exercises/ex0/README.md) <!--Stani-->
-- [Enable data integration via Data Ingestion for Industry Cloud](exercises/ex1/README.md)<!--Stani-->
-    - [Enable Data Ingestion for Industry Cloud](exercises/ex1/README.md#exercise-11-sub-exercise-1-description)<!--Stani-->
-    - [Intgerate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex1/README.md#exercise-12-sub-exercise-2-description)
-        - [Integrate Data Ingestion with SAP Integration Suite](exercises/ex1/README.md#exercise-12-sub-exercise-2-description)<!--Stani-->
-        - [Integrate S/4HANA on-prem with SAP Integration Suite](exercises/ex1/README.md#exercise-12-sub-exercise-2-description)<!--Christian-->
-- [Enable SAP Order and Delivery Scheduling](exercises/ex2/README.md) <!--Stani-->
-- [Run the biz scenario with IRM and ODS](exercises/ex3/README.md) <!--Christian-->
+- [Enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud](exercises/ex1/README.md)<!--Stani-->
+    - [Enable Data Ingestion for Industry Cloud Solutions](exercises/ex1/README.md)<!--Stani-->
+    - [Intgerate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex2/README.md)
+- [Enable SAP Order and Delivery Scheduling](exercises/ex3/README.md) <!--Stani-->
+- [Run the biz scenario with IRM and ODS](exercises/ex4/README.md) <!--Christian-->
   
-<!-- 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
-
-## How to obtain support
-
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
-
--->
-
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.

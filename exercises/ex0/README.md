@@ -1,6 +1,6 @@
 # Enable SAP Intelligent Returns Management solution
 
-In this exercise, we will enable and configure usage of SAP Intelligent Returns Management Industry Cloud solution.
+In this exercise, you will enable and configure usage of SAP Intelligent Returns Management Industry Cloud solution.
 
 ## Login to SAP Business Technology Plafrom (BTP) Global Account
 
@@ -41,6 +41,7 @@ In order to enable SAP IRM you need to create a subaccount in one of the support
 
         ![](/exercises/ex0/images/4.png)
 
+
 2. Add entitlement for SAP IRM to your Subaccount:
 
    - Click on the Subaccount you created from previous step and navigate to ***Entitlements*** in the Navigation Menu and then click on ***Configure Entitlements***.
@@ -70,7 +71,7 @@ In order to be able to use the SAP IRM capabilities, you need to ebable the IRM 
 
       ![](/exercises/ex0/images/11.png)
 
-   - In the ***New Instance or Subscription*** poput, select:
+   - In the ***New Instance or Subscription*** pop-up, select:
      - ***`SAP Intelligent Returns Management`*** for *Service*,
      - ***`application`*** for *Plan*,
      - Click on ***Create***.
@@ -115,4 +116,4 @@ Now that you have enabled SAP Intelligent Returns Management, you need to enable
 
 <br>
 
-### Go back to: [**Overview**](README.md) or Continue to: [**Enable data integration via Data Ingestion for Industry Cloud**](exercises/ex1/README.md)
+### Go back to: [**Overview**](../../README.md) or Continue to: [**Enable data integration via Data Ingestion for Industry Cloud**](../ex1/README.md)
