@@ -22,8 +22,7 @@ To complete exercises bellow, you need access (licenses) for the following SAP s
 - SAP Integration Suite
 - SAP Fiory Launchpad
 
-> **Note:**
-> For the on-site TechEd workshop you will be provided with enviroment having above requirements available.
+> **Note:** You will be provided with enviroment having above requirements available for the on-site TechEd hands-on workshop.
 
 ## Exercises
 
