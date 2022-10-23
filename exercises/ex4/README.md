@@ -1,4 +1,4 @@
-# Create an OAuth client and configure a new connection
+# Create an OAuth client 
 
 In this exercise we will create an OAuth client later used in the connectivity to the APIs of gateway. The RFC destination will use the Oauth client for authentication. You need the credentials file from the service binding in step nn (todo link file)
 
@@ -13,8 +13,8 @@ In this exercise we will create an OAuth client later used in the connectivity t
 5. Press OK
 6. For the OAuth 2.0 configuration enter the "Client Secret" in section General Settings. You find the client secret in the file in step 4 (element "clientsecret").   
 7. In section Authorization Server Settings find the fields Authorization Endpoint and Toke Endpoint.
-   1. Authorization Endpoint: Concatenate the value for element "url" and /oauth/token?grant_type=client_credentials&response_type=token
-   2. Token Endpoint: Concatenate the value for element "url" and /oauth/token?grant_type=client_credentials&response_type=token ![](/exercises/ex4/images/teched8.jpg)
+   1. "Authorization Endpoint": Concatenate the value for element "url" and /oauth/token?grant_type=client_credentials&response_type=token
+   2. "Token Endpoint": Concatenate the value for element "url" and /oauth/token?grant_type=client_credentials&response_type=token ![](/exercises/ex4/images/teched8.jpg)
 8. In Section Access Settings select "Client Credentials"
 9.  Save.
 
