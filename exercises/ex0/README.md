@@ -61,7 +61,7 @@ In order to enable SAP IRM you need to create a subaccount in one of the support
       
       ![](/exercises/ex0/images/10.png)
 
-## Subscribe for SAP Intelligent Returns Mananegement (IRM) and conficgure access to it
+## Subscribe for SAP Intelligent Returns Mananegement (IRM) and configure access to it
 
 In order to be able to use the SAP IRM capabilities, you need to ebable the IRM application and configure the access to it.
 
@@ -77,6 +77,11 @@ In order to be able to use the SAP IRM capabilities, you need to ebable the IRM 
      - Click on ***Create***.
 
         ![](/exercises/ex0/images/12.png)
+
+   > You should now have successfully ***Subscribed*** for SAP Intelligent Returns Management application.
+
+      ![](/exercises/ex0/images/12-1.png)
+
 
 2. Create Role Collection, add Roles to it, and asign it to your user.
    - From Navigation Menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.

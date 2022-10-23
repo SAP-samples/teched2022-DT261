@@ -33,7 +33,7 @@ Excercises must be executed in the order below:
 - [Enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud](exercises/ex1/README.md)<!--Stani-->
     - [Enable Data Ingestion for Industry Cloud Solutions](exercises/ex1/README.md)<!--Stani-->
     - [Intgerate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex2/README.md)
-- [Enable SAP Order and Delivery Scheduling](exercises/ex3/README.md) <!--Stani-->
+- [Enable SAP Order and Delivery Scheduling solution](exercises/ex3/README.md) <!--Stani-->
 - [Run the biz scenario with IRM and ODS](exercises/ex4/README.md) <!--Christian-->
   
 ## License
