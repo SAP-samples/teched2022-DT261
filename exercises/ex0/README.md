@@ -2,7 +2,7 @@
 
 In this exercise, you will enable and configure usage of SAP Intelligent Returns Management Industry Cloud solution.
 
-## Login to SAP Business Technology Plafrom (BTP) Global Account
+## Login to SAP Business Technology Platform (BTP) Global Account
 
 1. Login to SAP BTP cockpit:
    - Open [https://cockpit.**us21**.hana.ondemand.com/cockpit/](https://cockpit.us21.hana.ondemand.com/cockpit/#).
