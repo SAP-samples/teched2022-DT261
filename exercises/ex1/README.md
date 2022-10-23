@@ -23,6 +23,7 @@ In order to enable DI you need to have entitlements assigned to your subaccount.
       ![](/exercises/ex1/images/22.png)
 
 ## Subscribe for Data Ingestion (DI) for Industry Cloud Solutions application.
+In order to use the DI application you need to subscribe for it and assign required roles to your user.
 
 1. Subscribe for DI application.
 
@@ -72,11 +73,46 @@ In order to enable DI you need to have entitlements assigned to your subaccount.
       ![](/exercises/ex1/images/31.png)
 
 ## Enable access to Data Ingestion (DI) for Industry Cloud Solutions APIs.
-<!-->
-1. Subscribe for DI application.
+In order to enable integration to SAP S/4HANA you need to create credentials for the DI APIs.
+
+1. Create service instance of DI.
 
    - From the Navigation Menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
--->
+
+      ![](/exercises/ex1/images/32.png)
+
+   - In the ***New Instance or Subscription*** pop-up, select:
+     - ***`Data Ingestion for Industry Cloud Solutions`*** for *Service*,
+     - ***`default`*** for *Plan*,
+     - ***`Other`*** for *Runtime Environment*,
+     - Set name for the *Instance Name* - f.e. ***`di`***,
+     - Click on ***Create***.
+
+        ![](/exercises/ex1/images/33.png)
+
+2. Create service binding for created service instance.
+
+   - In the ***Instance adn Subscriptions*** view, find the DI instance created in the previous step, click on ***...*** (*Actions*) button and select ***Create Service Bindings***.
+
+      ![](/exercises/ex1/images/34.png)
+
+   - In the *New Binging* pop-up:
+       - set name for *Binding Name* - f.e. ***`di`***, 
+       - click ***Create***.
+         
+         ![](/exercises/ex1/images/35.png)
+
+3. Download Credentials for the DI APIs:
+   
+   - In the ***Instance adn Subscriptions*** view, find the DI instance created and click on  ***1 service binding*** link in *Credentials* column.
+      
+      ![](/exercises/ex1/images/36.png)
+   
+   - In the ***Credentials*** view, click on  ***Download*** and save the file locally.
+      
+      ![](/exercises/ex1/images/37.png)
+   
+   > **Note:** These credentils will be needed in the next exercise in order to configure the integration from SAP S/4HANA to DI.
 
 <br>After completing these steps you will have enabled Data Ingestion for Industry Cloud Solutions and have access to its application and APIs.
 
