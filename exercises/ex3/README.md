@@ -84,6 +84,36 @@ In order to be able to use the ODS capabilities, you need to ebable the ODS appl
    
    > **Note:** These credentials will be needed in the next steps in order to configure the integration in Launchpad Service.
 
+5. Create Role Collection, add Roles to it, and asign it to your user.
+   - From Navigation Menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
+
+      ![](/exercises/ex3/images/67.png)
+  
+   - Set Name for the Role Collection (f.e. ***`dt261-ods`***) and click ***Create***.
+
+      ![](/exercises/ex3/images/68.png)
+   
+   - Click on the created Role Collection and click ***Edit*** from the detailed view.
+
+      ![](/exercises/ex3/images/69.png)
+
+   - Click on the popup button in the ***Role Name*** field.
+
+      ![](/exercises/ex3/images/70.png)
+
+   - In ***Select: Rome*** view:
+     - Select ***`order-delivery-scheduling!b7728`*** for ***Application Identifier***, 
+     - For this exercise, check the checkbox in front of the *Role Name* header to select all ODS Roles, 
+     - Click ***Add*** button.
+
+      ![](/exercises/ex3/images/71.png)
+   
+   - Now add your user to the Role Collection by entiring your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+
+      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+
+      ![](/exercises/ex3/images/72.png)
+
 ## Enable SAP BTP Lauchpad Service and configure ODS application in it.
 
 In order to be able to use the ODS capabilities, you need to configure it in the Launchpad Service.
