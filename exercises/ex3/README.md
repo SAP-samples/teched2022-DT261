@@ -1,14 +1,14 @@
-# Enable SAP Order and Delivery Scheduling solution
+# Enable the SAP Order and Delivery Scheduling solution
 
-In this exercise, you will enable and configure usage of SAP Order and Delivery Scheduling Industry Cloud solution.
+In this exercise, you will enable and configure the usage of SAP Order and Delivery Scheduling Industry Cloud solution.
 
-## Assign entitlements for SAP Order and Delivery Scheduling (ODS) Industry Cloud solution.
+## Assign entitlements for the SAP Order and Delivery Scheduling (ODS) Industry Cloud solution
 
 In order to enable ODS you need to have entitlements assigned to your subaccount.
 
 1. Add entitlement for ODS to your Subaccount:
 
-   - In your Subaccount, navigate to  ***Entitlements*** in the Navigation Menu and then click on ***Configure Entitlements***.
+   - In your Subaccount, navigate to  ***Entitlements*** in the navigation menu and then click on ***Configure Entitlements***.
             
       ![](/exercises/ex3/images/38.png)
 
@@ -22,17 +22,17 @@ In order to enable ODS you need to have entitlements assigned to your subaccount
       ![](/exercises/ex3/images/40-1.png) 
 
    - Click ***Save*** on the Entitlements view.
-      > **Note:** Do not forget or skip this step as the entilements will not be saved and you cannot continue with next exercises. 
+      > **Note:** Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with next exercises. 
       
       ![](/exercises/ex3/images/41.png)
 
-## Enable SAP Order and Delivery Scheduling and configure access to it.
+## Enable SAP Order and Delivery Scheduling and configure access to it
 
-In order to be able to use the ODS capabilities, you need to ebable the ODS application and APIs.
+In order to be able to use the ODS capabilities, you need to enable the ODS application and APIs.
 
-1. Subscribe for ODS application.
+1. Subscribe to the ODS application.
 
-   - From the Navigation Menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
+   - From the navigation menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
 
       ![](/exercises/ex3/images/42.png)
 
@@ -43,7 +43,7 @@ In order to be able to use the ODS capabilities, you need to ebable the ODS appl
 
         ![](/exercises/ex3/images/43.png)
 
-    > You should now have successfully ***Subscribed*** for SAP Order and Delivery Scheduling application.
+    > You should now have successfully ***Subscribed*** to SAP Order and Delivery Scheduling application.
 
       ![](/exercises/ex3/images/44.png)
 
@@ -55,41 +55,41 @@ In order to be able to use the ODS capabilities, you need to ebable the ODS appl
      - ***`SAP Order and Delivery Scheduling`*** for *Service*,
      - ***`default`*** for *Plan*,
      - ***`Other`*** for *Runtime Environment*,
-     - Set name for the *Instance Name* - f.e. ***`ods`***,
+     - Set name for the *Instance Name* - e.g. ***`ods`***,
      - Click on ***Create***.
 
         ![](/exercises/ex3/images/46.png)
 
 3. Create service binding for created service instance.
 
-   - In the ***Instance adn Subscriptions*** view, find the ***ods*** instance created in the previous step, click on ***...*** (*Actions*) button and select ***Create Service Bindings***.
+   - In the ***Instance and Subscriptions*** view, find the ***ods*** instance created in the previous step, click on ***...*** (*Actions*) button and select ***Create Service Bindings***.
 
       ![](/exercises/ex3/images/47.png)
 
-   - In the *New Binging* pop-up:
-       - set name for *Binding Name* - f.e. ***`ods`***, 
-       - click ***Create***.
+   - In the *New Binding* pop-up:
+       - Set name for *Binding Name* - e.g. ***`ods`***, 
+       - Click ***Create***.
          
          ![](/exercises/ex3/images/48.png)
 
 4. Download Credentials for the ODS APIs:
    
-   - In the ***Instance adn Subscriptions*** view, find the ***ods*** instance created and click on  ***1 service binding*** link in *Credentials* column.
+   - In the ***Instance adn Subscriptions*** view, find the ***ods*** instance created and click on the ***1 service binding*** link in *Credentials* column.
       
       ![](/exercises/ex3/images/49.png)
    
-   - In the ***Credentials*** view, click on  ***Download*** and save the file locally.
+   - In the ***Credentials*** view, click on ***Download*** and save the file locally.
       
       ![](/exercises/ex3/images/50.png)
    
    > **Note:** These credentials will be needed in the next steps in order to configure the integration in Launchpad Service.
 
-5. Create Role Collection, add Roles to it, and asign it to your user.
-   - From Navigation Menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
+5. Create Role Collection, add Roles to it, and assign it to your user.
+   - From the navigation menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
 
       ![](/exercises/ex3/images/67.png)
   
-   - Set Name for the Role Collection (f.e. ***`dt261-ods`***) and click ***Create***.
+   - Set Name for the Role Collection (e.g. ***`dt261-ods`***) and click ***Create***.
 
       ![](/exercises/ex3/images/68.png)
    
@@ -101,24 +101,24 @@ In order to be able to use the ODS capabilities, you need to ebable the ODS appl
 
       ![](/exercises/ex3/images/70.png)
 
-   - In ***Select: Rome*** view:
+   - In ***Select: Role*** view:
      - Select ***`order-delivery-scheduling!b7728`*** for ***Application Identifier***, 
      - For this exercise, check the checkbox in front of the *Role Name* header to select all ODS Roles, 
      - Click ***Add*** button.
 
       ![](/exercises/ex3/images/71.png)
    
-   - Now add your user to the Role Collection by entiring your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+   - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
       > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](/exercises/ex3/images/72.png)
 
-## Enable SAP BTP Lauchpad Service and configure ODS application in it.
+## Enable SAP BTP Launchpad Service and configure the ODS application in it
 
 In order to be able to use the ODS capabilities, you need to configure it in the Launchpad Service.
 
-1. Subscribe for Launchpad Service application.
+1. Subscribe to the Launchpad Service application.
 
    - If not already there, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
 
@@ -131,25 +131,25 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
         ![](/exercises/ex3/images/52.png)
 
-    > You should now have successfully ***Subscribed*** for Launchpad Service application.
+    > You should now have successfully ***Subscribed*** to the Launchpad Service application.
 
       ![](/exercises/ex3/images/53.png)
 
-2. Assign ***Launchpad_Admin*** Role Collection to your user.
+2. Assign the ***Launchpad_Admin*** Role Collection to your user.
 
-   - From Navigation Menu, navigate to ***Security*** > ***Role Collections***. Select ***Launchpad_Admin*** predefined Role Collection and click on ***Edit*** button in the top-right corner of the screen.
+   - From the navigation menu, navigate to ***Security*** > ***Role Collections***. Select the predefined ***Launchpad_Admin*** Role Collection and click on the ***Edit*** button in the top-right corner of the screen.
 
       ![](/exercises/ex3/images/54.png)
    
-   - Add your user to the Role Collection by entiring your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+   - Add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
       > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](/exercises/ex3/images/55.png)
 
-3. Create destionation for Launchpad Service.
+3. Create a destination for the Launchpad Service.
 
-   - From Navigation Menu, navigate to ***Connectivity*** > ***Destinations*** and click on ***New Destination***.
+   - From the navigation menu, navigate to ***Connectivity*** > ***Destinations*** and click on ***New Destination***.
 
       ![](/exercises/ex3/images/56.png)
 
@@ -158,6 +158,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
      - ***`HTTP`*** for *Type*,
      - ***`https://app.orderdeliveryscheduling.cloud.sap/api/flpContent`*** for *URL*,
      - ***`OAuthClientCredentials`*** for *Authentication*,
+[//]: # (Is this intended to be cliend?)
      - ***`<cliend id value from the credentials created for ODS service instance>`*** for *Client ID*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`<cliend secret value from the credentials created for ODS service instance>`*** for *Client Secret*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`Dedicated`*** for *Token Service URL Type*,
