@@ -8,7 +8,7 @@ In order to enable DI you need to have entitlements assigned to your subaccount.
 
 1. Add entitlement for DI to your Subaccount:
 
-   - In your Subaccount, navigate to  ***Entitlements*** in the Navigation Menu and then click on ***Configure Entitlements***.
+   - In your Subaccount, navigate to  ***Entitlements*** in the navigation menu and then click on ***Configure Entitlements***.
             
       ![](/exercises/ex1/images/19.png)
 
@@ -27,7 +27,7 @@ In order to use the DI application you need to subscribe for it and assign requi
 
 1. Subscribe for DI application.
 
-   - From the Navigation Menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
+   - From the navigation menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
 
       ![](/exercises/ex1/images/23.png)
 
@@ -43,11 +43,11 @@ In order to use the DI application you need to subscribe for it and assign requi
       ![](/exercises/ex1/images/25.png)
 
 2. Create Role Collection, add Roles to it, and asign it to your user.
-   - From Navigation Menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
+   - From the navigation menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
 
       ![](/exercises/ex1/images/26.png)
   
-   - Set Name for the Role Collection (f.e. ***`dt261-di`***) and click ***Create***.
+   - Set Name for the Role Collection (e.g. ***`dt261-di`***) and click ***Create***.
 
       ![](/exercises/ex1/images/27.png)
    
@@ -59,7 +59,7 @@ In order to use the DI application you need to subscribe for it and assign requi
 
       ![](/exercises/ex1/images/29.png)
 
-   - In ***Select: Rome*** view:
+   - In ***Select: Role*** view:
      - Select ***`di4cic!b9957`*** for ***Application Identifier***, 
      - Check the checkboxes for ***`integration-settingsREAD`***, ***`integration-settingsWRITE`***, ***`UsersandRolePermissionREAD`***, and ***`UsersandRolePermissionWRITE`*** Roles,
      - Click ***Add*** button.
@@ -77,7 +77,7 @@ In order to enable integration to SAP S/4HANA you need to create credentials for
 
 1. Create service instance of DI.
 
-   - From the Navigation Menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
+   - From the navigation menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
 
       ![](/exercises/ex1/images/32.png)
 
@@ -85,7 +85,7 @@ In order to enable integration to SAP S/4HANA you need to create credentials for
      - ***`Data Ingestion for Industry Cloud Solutions`*** for *Service*,
      - ***`default`*** for *Plan*,
      - ***`Other`*** for *Runtime Environment*,
-     - Set name for the *Instance Name* - f.e. ***`di`***,
+     - Set name for the *Instance Name* - e.g. ***`di`***,
      - Click on ***Create***.
 
         ![](/exercises/ex1/images/33.png)
@@ -97,7 +97,7 @@ In order to enable integration to SAP S/4HANA you need to create credentials for
       ![](/exercises/ex1/images/34.png)
 
    - In the *New Binging* pop-up:
-       - set name for *Binding Name* - f.e. ***`di`***, 
+       - set name for *Binding Name* - e.g. ***`di`***, 
        - click ***Create***.
          
          ![](/exercises/ex1/images/35.png)

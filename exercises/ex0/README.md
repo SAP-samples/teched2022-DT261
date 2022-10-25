@@ -1,25 +1,25 @@
-# Enable SAP Intelligent Returns Management solution
+# Enable the SAP Intelligent Returns Management solution
 
-In this exercise, you will enable and configure usage of SAP Intelligent Returns Management Industry Cloud solution.
+In this exercise, you will enable and configure usage of the SAP Intelligent Returns Management Industry Cloud solution.
 
 ## Login to SAP Business Technology Platform (BTP) Global Account
 
 1. Login to SAP BTP cockpit:
    - Open [https://cockpit.**us21**.hana.ondemand.com/cockpit/](https://cockpit.us21.hana.ondemand.com/cockpit/#).
 
-      > **Note:** You can exchange the ***us21*** from the URL with another region in case you are not based in USA.
+      > **Note:** You can exchange the ***us21*** from the URL with another region in case you are not based in the USA.
 
    - Provide your username and password and press ***Log On***.
       
-      > **Note:** During your TechEd hands-on, you will be provided wit predefined user and password.
+      > **Note:** During your TechEd hands-on, you will be provided wit predefined username and password.
 
       ![](/exercises/ex0/images/1.png)
 
-2. Select desired Global Account (if you have multiple ones) and click on ***Continue***.
+2. Select your desired Global Account (if you have multiple ones) and click on ***Continue***.
 
     ![](/exercises/ex0/images/2.png) <br>
 
-## Create your Subaccount and assign entitlements for SAP Intelligent Returns Mananegement (IRM)
+## Create your Subaccount and assign entitlements for SAP Intelligent Returns Management (IRM)
 
 In order to enable SAP IRM you need to create a subaccount in one of the support regions and assigned IRM entitlements to it.
 
@@ -35,7 +35,7 @@ In order to enable SAP IRM you need to create a subaccount in one of the support
       - *Subdomain*. Example: ***`dt261`***, 
       - *Region*. Example: ***`Microsoft Azure US East (VA) cf-us21`***, 
 
-        > **Note:** You need to choose a reagion where SAP IRM is available. For more information on where SAP IRM is available, please visit the [official documentation](https://help.sap.com/docs/returns?locale=en-US).
+        > **Note:** You need to choose a region in which SAP IRM is available. For more information on where SAP IRM is available, please visit the [official documentation](https://help.sap.com/docs/returns?locale=en-US).
      
       - and click ***Create***.
 
@@ -44,7 +44,7 @@ In order to enable SAP IRM you need to create a subaccount in one of the support
 
 2. Add entitlement for SAP IRM to your Subaccount:
 
-   - Click on the Subaccount you created from previous step and navigate to ***Entitlements*** in the Navigation Menu and then click on ***Configure Entitlements***.
+   - Click on the Subaccount you created in the previous step and navigate to ***Entitlements*** in the navigation menu and then click on ***Configure Entitlements***.
       > **Note:** You have to select the pre-created Subaccount for the on-site TechEd hands-on workshop. Please ask your instructors for more details.
       
       ![](/exercises/ex0/images/5.png)
@@ -57,17 +57,17 @@ In order to enable SAP IRM you need to create a subaccount in one of the support
       ![](/exercises/ex0/images/9.png)
 
    - Click ***Save*** on the Entitlements view.
-      > **Note:** Do not forget or skip this step as the entilements will not be saved and you cannot continue with next exercises. 
+      > **Note:** Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with next exercises. 
       
       ![](/exercises/ex0/images/10.png)
 
-## Subscribe for SAP Intelligent Returns Mananegement (IRM) and configure access to it
+## Subscribe to SAP Intelligent Returns Management (IRM) and configure access to it
 
-In order to be able to use the SAP IRM capabilities, you need to ebable the IRM application and configure the access to it.
+In order to be able to use the SAP IRM capabilities, you need to enable the IRM application and configure access to it.
 
-1. Subscribe for SAP IRM application.
+1. Subscribe to SAP IRM application.
 
-   - From the Navigation Menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
+   - From the navigation menu, navigate to ***Services*** > ***Instances and Subscriptions***. Click on ***Create***.
 
       ![](/exercises/ex0/images/11.png)
 
@@ -78,17 +78,17 @@ In order to be able to use the SAP IRM capabilities, you need to ebable the IRM 
 
         ![](/exercises/ex0/images/12.png)
 
-   > You should now have successfully ***Subscribed*** for SAP Intelligent Returns Management application.
+   > You should now have successfully ***Subscribed*** to the SAP Intelligent Returns Management application.
 
       ![](/exercises/ex0/images/12-1.png)
 
 
-2. Create Role Collection, add Roles to it, and asign it to your user.
-   - From Navigation Menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
+2. Create Role Collection, add Roles to it, and assign it to your user.
+   - From the navigation menu, navigate to ***Security*** > ***Role Collections***. Click on the ***`+`*** button in the top-right corner of the screen.
 
       ![](/exercises/ex0/images/13.png)
   
-   - Set Name for the Role Collection (f.e. ***`dt261-irm`***) and click ***Create***.
+   - Set Name for the Role Collection (e.g. ***`dt261-irm`***) and click ***Create***.
 
       ![](/exercises/ex0/images/14.png)
    
@@ -100,24 +100,25 @@ In order to be able to use the SAP IRM capabilities, you need to ebable the IRM 
 
       ![](/exercises/ex0/images/16.png)
 
-   - In ***Select: Rome*** view:
+   - In ***Select: Role*** view:
      - Select ***`irm!b1345`*** for ***Application Identifier***, 
      - Check the checkboxes for ***`ReturnObjectREAD`***, ***`ReturnObjectWRITE`***, and ***`SettingsREAD`*** Roles,
      - Click ***Add*** button.
 
       ![](/exercises/ex0/images/17.png)
    
-   - Now add your user to the Role Collection by entiring your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+   - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
       > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](/exercises/ex0/images/18.png)
 
-<br>After completing these steps you will have enabled SAP Intelligent Returns Management solution and have access to its application.
+<br>After completing these steps you will have enabled the SAP Intelligent Returns Management solution and have access to its application.
 
+[//]: # (Is Summary a good title or should it be "Next Steps")
 ## Summary
 
-Now that you have enabled SAP Intelligent Returns Management, you need to enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud.
+Now that you have enabled SAP Intelligent Returns Management, you need to enable data integration from SAP S/4HANA via Data Ingestion for Industry Cloud.
 
 <br>
 

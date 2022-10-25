@@ -10,29 +10,29 @@ The Consumer Industries Cloud offers a modular cloud suite. Data Ingestion for I
 
 We will use the examples of SAP Order and Delivery Schedule (ODS) and SAP Intelligent Returns Management (IRM), two offerings of the modular suite. ODS is in charge of defining possible delivery windows for suppliers based on configuration and SAP S/4HANA master data. IRM streemlines the returns process for a retailer by guiding consumers through the handling of an item and an AI based disposition engine in the warehouse to handle the returns.   
 
-Data will flow from SAP S/4HANA to Data Ingestion and be distributed to the applications.
+Data will flow from SAP S/4HANA to Data Ingestion and is distributed to the applications.
 
 ## Requirements
 
-To complete exercises bellow, you need access (licenses) for the following SAP solutions:
+To complete the exercises below, you need access (licenses) to the following SAP solutions:
 - SAP S/4HANA on-prem (SAP ECC on project base)
 - SAP Intelligent Returns Management
 - SAP Order and Delivery Scheduling
 - Data Ingestion for Industry Cloud Solutions
 - SAP Fiori Launchpad
 
-> **Note:** You will be provided with enviroment having above requirements available for the on-site TechEd hands-on workshop.
+> **Note:** You will be provided with an environment having above requirements available for the on-site TechEd hands-on workshop.
 
 ## Exercises
 
-Excercises must be executed in the order below:
+Exercises must be executed in the order below:
 
 <!-- to be validated with Christian and Fabian -->
 
 - [Enable SAP Intelligent Returns Management solution](exercises/ex0/README.md) <!--Stani-->
 - [Enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud](exercises/ex1/README.md)<!--Stani-->
     - [Enable Data Ingestion for Industry Cloud Solutions](exercises/ex1/README.md)<!--Stani-->
-    - [Intgerate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex2/README.md)
+    - [Integrate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex2/README.md)
 - [Enable SAP Order and Delivery Scheduling solution](exercises/ex3/README.md) <!--Stani-->
 - [Run the biz scenario with IRM and ODS](exercises/ex4/README.md) <!--Christian-->
   
