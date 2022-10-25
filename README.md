@@ -21,7 +21,7 @@ To complete the exercises below, you need access (licenses) to the following SAP
 - Data Ingestion for Industry Cloud Solutions
 - SAP Fiori Launchpad
 
-> **Note:** You will be provided with an environment having above requirements available for the on-site TechEd hands-on workshop.
+> **Note:** You will be provided with an environment having above requirements available for the on-site SAP TechEd Hands-On Lab workshop.
 
 ## Exercises
 
