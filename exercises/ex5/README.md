@@ -11,4 +11,5 @@ In this step you will configure the connection using the OAuth profile from the 
 ![](/exercises/ex5/images/EX5_1.jpg)
 6. Go to tab "Logon & Security" and push button "OAuth Settings"
 7. Select Profile and Configuration from exercise 4 <todo add name> <br>![](/exercises/ex5/images/EX5_2.jpg)
-8. Press Save.
+8. Select "SSL - Active" on the same tab "Logon & Security". <br>![](/exercises/ex5/images/EX5_3.jpg)
+9. Press Save.
