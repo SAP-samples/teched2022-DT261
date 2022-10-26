@@ -74,7 +74,7 @@ In order to be able to use the ODS capabilities, you need to enable the ODS appl
 
 4. Download Credentials for the ODS APIs:
    
-   - In the ***Instance adn Subscriptions*** view, find the ***ods*** instance created and click on the ***1 service binding*** link in *Credentials* column.
+   - In the ***Instance and Subscriptions*** view, find the ***ods*** instance created and click on the ***1 service binding*** link in *Credentials* column.
       
       ![](/exercises/ex3/images/49.png)
    
@@ -102,6 +102,7 @@ In order to be able to use the ODS capabilities, you need to enable the ODS appl
       ![](/exercises/ex3/images/70.png)
 
    - In ***Select: Role*** view:
+     - Select ***`All`*** for ***Role Name***
      - Select ***`order-delivery-scheduling!b7728`*** for ***Application Identifier***, 
      - For this exercise, check the checkbox in front of the *Role Name* header to select all ODS Roles, 
      - Click ***Add*** button.
@@ -157,10 +158,9 @@ In order to be able to use the ODS capabilities, you need to configure it in the
      - ***`flp-content-provider-destination`*** for *Name*,
      - ***`HTTP`*** for *Type*,
      - ***`https://app.orderdeliveryscheduling.cloud.sap/api/flpContent`*** for *URL*,
-     - ***`OAuthClientCredentials`*** for *Authentication*,
-[//]: # (Is this intended to be cliend?)
-     - ***`<cliend id value from the credentials created for ODS service instance>`*** for *Client ID*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
-     - ***`<cliend secret value from the credentials created for ODS service instance>`*** for *Client Secret*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
+     - ***`OAuth2ClientCredentials`*** for *Authentication*,
+     - ***`<client id value from the credentials created for ODS service instance>`*** for *Client ID*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
+     - ***`<client secret value from the credentials created for ODS service instance>`*** for *Client Secret*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`Dedicated`*** for *Token Service URL Type*,
      - ***`url value from the credentials created for ODS service instance>`*** for *Token Service URL*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - Click on ***Save***.
@@ -178,11 +178,12 @@ In order to be able to use the ODS capabilities, you need to configure it in the
         ![](/exercises/ex3/images/59.png)
 
    - In the ***New Content Provider*** pop-up, set:
-     - ***`ODS Apps`*** for *Tittle*,
+     - ***`ODS Apps`*** for *Title*,
      - ***`ODS_Apps`*** is automatically filled for *ID*,
      - ***`flp-content-provider-destination`*** for *Design-Time Destination*,
      - ***`flp-content-provider-destination`*** for *Runtime Destination*,
      - ***`Use default runtime destination`*** for *Runtime Destination for Dynamic Data*,
+     - ***`Automatic addition of all content items`*** for *Content Addition Mode*,
      - click ***Save***.
 
         ![](/exercises/ex3/images/60.png)
@@ -198,7 +199,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
       ![](/exercises/ex3/images/62.png)
       ![](/exercises/ex3/images/63.png)
 
-   - In the Settings view of the site you just created, click on the **<** button on the top-left corner to get back to the *Site Directory*. 
+   - In the Settings view of the site you just created, click on the **<** button in the top-left corner to get back to the *Site Directory*. 
 
       ![](/exercises/ex3/images/64.png)
 
