@@ -84,37 +84,6 @@ In order to be able to use the ODS capabilities, you need to enable the ODS appl
    
    > **Note:** These credentials will be needed in the next steps in order to configure the integration in Launchpad Service.
 
-5. Create Role Collection, add Roles to it, and assign it to your user.
-   - From the navigation menu, navigate to ***Security*** > ***Role Collections***. Click on ***`+`*** button in the top-right corner of the screen.
-
-      ![](/exercises/ex3/images/67.png)
-  
-   - Set Name for the Role Collection (e.g. ***`dt261-ods`***) and click ***Create***.
-
-      ![](/exercises/ex3/images/68.png)
-   
-   - Click on the created Role Collection and click ***Edit*** from the detailed view.
-
-      ![](/exercises/ex3/images/69.png)
-
-   - Click on the popup button in the ***Role Name*** field.
-
-      ![](/exercises/ex3/images/70.png)
-
-   - In ***Select: Role*** view:
-     - Select ***`All`*** for ***Role Name***
-     - Select ***`order-delivery-scheduling!b7728`*** for ***Application Identifier***, 
-     - For this exercise, check the checkbox in front of the *Role Name* header to select all ODS Roles, 
-     - Click ***Add*** button.
-
-      ![](/exercises/ex3/images/71.png)
-   
-   - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
-
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
-
-      ![](/exercises/ex3/images/72.png)
-
 ## Enable SAP BTP Launchpad Service and configure the ODS application in it
 
 In order to be able to use the ODS capabilities, you need to configure it in the Launchpad Service.
@@ -162,7 +131,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
      - ***`<client id value from the credentials created for ODS service instance>`*** for *Client ID*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`<client secret value from the credentials created for ODS service instance>`*** for *Client Secret*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`Dedicated`*** for *Token Service URL Type*,
-     - ***`url value from the credentials created for ODS service instance>`*** for *Token Service URL*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
+     - ***`<url value from the credentials created for ODS service instance>`*** for *Token Service URL*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - Click on ***Save***.
 
         ![](/exercises/ex3/images/57.png)
@@ -203,7 +172,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
       ![](/exercises/ex3/images/64.png)
 
-   - Set the Site as default one by clicking on ***...***, then click ***Set as Default***, and then confirm by clicking ***OK***.
+   - Set the Site as default by clicking on ***...***, then click ***Set as Default***, and then confirm by clicking ***OK***.
     
       ![](/exercises/ex3/images/65.png)
       ![](/exercises/ex3/images/66.png)
