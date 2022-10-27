@@ -19,7 +19,7 @@ In this exercise we will create an OAuth client later used in the connectivity t
 9.  Save.
 
 <br>
-### Go back to: [Enable the SAP Order and Delivery Scheduling solution](../ex3/README.md) or Continue to: [Configure the RFC Connection](../ex5/README.md)
+**###** Go back to: [Enable the SAP Order and Delivery Scheduling solution](../ex3/README.md) or Continue to: [Configure the RFC Connection](../ex5/README.md)
 
 [def]: /exercises/ex4/images/teched_error1.jpg
 [def2]: /exercises/ex4/images/EX4_2.jpg
