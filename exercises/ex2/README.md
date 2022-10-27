@@ -1,42 +1,33 @@
-# Exercise 2 - Exercise 2 Description
-
-In this exercise, we will create...
-
-## Exercise 2.1 Sub Exercise 1 Description
-
-After completing these steps you will have created...
-
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+# Configure the Data Ingestion Application - Systems and Entities
+In this step you will configure the source systems (S/4HANA Business System) as well as the entities to be replicated.
+To start you will launch the Data Ingestion for Industry Cloud Solutions from your subaccount. <br>![](/exercises/ex2/images/EX2_1.jpg)
 
 
+## Maintain Business System and Entities
 
-## Exercise 2.2 Sub Exercise 2 Description
+1. Go to Tab 'System Information'. <br>![](/exercises/ex2/images/EX2_3.jpg)
+2. Click 'Add'. <br>![](/exercises/ex2/images/EX2_2.jpg)
+3. Create a Business System DT260_<your group number>. The Business System will be important in exercise 6. <br>![](/exercises/ex2/images/EX2_4.jpg)
+4. Go to tab 'Data Ingestion'. <br>![](/exercises/ex2/images/EX2_5.jpg)
+5. In the list activate the data ingestion by Data Object starting with Business Partner. <br>![](/exercises/ex2/images/EX2_6.jpg)
+6. Assign the Business System from step 3 to the Business Partner. <br>![](/exercises/ex2/images/EX2_7.jpg)
+7. The line with Business Partner should look like this: <br>![](/exercises/ex2/images/EX2_8.jpg)
+8. Follow the same step for the Data Objects
+| Data Object | 
+|-------------|
+|Country Codes|
+|Currency Codes|
+|Customer Order|
+|Distribution Channel Codes|
+|Language Codes|
+|MerchandiseCategoryHierarchyNode|
+|Plant|
+|Product|
+|Sales Organization|
+|UnitOfMeasureCodes|
+9. Select all Data Objects and click 'Activate'  <br>![](/exercises/ex2/images/EX2_9.jpg)
+10. Confirm the activation <br>![](/exercises/ex2/images/EX2_10.jpg)
 
-After completing these steps you will have...
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
-
-## Summary
-
-You've now ...
-
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+<br> 
+### Go back to: [Configure the Data Replication Framework - Business System)(../ex6/README.md) or Continue to: [Run Replication for configured entities](../ex8/README.md)
