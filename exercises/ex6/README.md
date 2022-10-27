@@ -13,3 +13,7 @@ You configure the connection maintained in exercise 5 as business system for DRF
 6. Press enter, ignore the warning and save.
 
 **Note:** The warning in step 6 will state that the business system selected in not part of the System Landscape Directory (SLO). For the purpose of this exercise the warning can be ignored.
+
+<br> 
+### Go back to: [Configure the RFC Connection](../ex5/README.md) or Continue to: [Configure the Data Replication Framework - Replication Model](../ex7/README.md)
+

@@ -14,3 +14,7 @@ You require the business system configured in exercise 6.
 7. Add other Outbound Implementations to the Replication Model <br> <todo add a table of all outbound implementations available in HE4>
 8. Save your changes.
 9. Return to the Replication Model overview, select your Replication Model and press "Activate". ![](/exercises/ex7/images/EX7_6.jpg) 
+
+
+<br> 
+### Go back to: [Configure the Data Replication Framework - Business System)(../ex6/README.md) or Continue to: [Run Replication for configured entities](../ex8/README.md)

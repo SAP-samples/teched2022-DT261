@@ -1,4 +1,4 @@
-# Configure the RFC connection
+# Configure the RFC Connection
 In this step you will configure the connection using the OAuth profile from the previous step. The RFC connection will be used for the outbound calls to Data Ingestion.
 
 ## Create an OAuth client
@@ -13,3 +13,6 @@ In this step you will configure the connection using the OAuth profile from the 
 7. Select Profile and Configuration from exercise 4 <todo add name> <br>![](/exercises/ex5/images/EX5_2.jpg)
 8. Select "SSL - Active" on the same tab "Logon & Security". <br>![](/exercises/ex5/images/EX5_3.jpg)
 9. Press Save.
+
+<br>
+### Go back to: [Create an OAuth client ](../ex4/README.md) or Continue to: [Configure the Data Replication Framework - Business System](../ex6/README.md)

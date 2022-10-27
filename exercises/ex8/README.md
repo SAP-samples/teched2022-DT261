@@ -12,6 +12,8 @@ You will use the Replication Model configured in exercise 7.
 7. Press "Save".
 8. Execute DRFOUT (press F8).
 
+### Go back to: [Configure the Data Replication Framework - Replication Model](../ex7/README.md)
+
 [def]: /exercises/ex8/images/EX8_2.jpg
 [def2]: /exercises/ex8/images/EX8_1.jpg
 
