@@ -213,4 +213,4 @@ Now that you have enabled SAP Order and Delivery Scheduling solution, you need t
 
 <br>
 
-### Go back to: [**Run Replication for configured entities**](exercises/ex8/README.md) or Continue to: [**Run the ODS biz scenario**](exercises/ex9/README.md)
+### Go back to: [**Run Replication for configured entities**](../ex8/README.md) or Continue to: [**Run the ODS biz scenario**](../ex9/README.md)
