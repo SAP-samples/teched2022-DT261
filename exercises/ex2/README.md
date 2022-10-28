@@ -31,4 +31,4 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 ## Next Steps:
 Now that you have configured Data Ingestion for Industry Cloud Solutions, you need to integrate it to SAP S/4HANA.
 <br> 
-### Go back to: [Configure the Data Replication Framework - Business System)(../ex6/README.md) or Continue to: [Run Replication for configured entities](../ex8/README.md)
+### Go back to: [**Enable Data Ingestion for Industry Cloud Solutions**](../ex1/README.md) or Continue to: [**Create an OAuth client**](../ex4/README.md)

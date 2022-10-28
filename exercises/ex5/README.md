@@ -15,4 +15,5 @@ In this step you will configure the connection using the OAuth profile from the 
 9. Press Save.
 
 <br>
-### Go back to: [Create an OAuth client ](../ex4/README.md) or Continue to: [Configure the Data Replication Framework - Business System](../ex6/README.md)
+
+### Go back to: [**Create an OAuth client**](../ex4/README.md) or Continue to: [**Configure the Data Replication Framework - Business System**](../ex6/README.md)

@@ -124,4 +124,4 @@ In order to enable integration to SAP S/4HANA you need to create credentials for
 
 Now that you have enabled ata Ingestion for Industry Cloud Solutions, you need to configure it
 <br>
-### Go back to: [Enable SAP Intelligent Returns Management solution](../ex0/README.md) or Continue to: [Integrate Data Ingestion for Industry Cloud with S/4HANA on-prem system](../ex2/README.md)
+### Go back to: [**Enable SAP Intelligent Returns Management solution**](../ex0/README.md) or Continue to: [**Configure Data Ingestion for Industry Cloud Solutions**](../ex2/README.md)

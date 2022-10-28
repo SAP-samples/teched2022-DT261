@@ -32,8 +32,13 @@ Exercises must be executed in the order below:
     - [Enable Data Ingestion for Industry Cloud Solutions](exercises/ex1/README.md)
     - [Configure Data Ingestion for Industry Cloud Solutions](exercises/ex2/README.md)
     - [Integrate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex4/README.md)
+        - [Create an OAuth client](exercises/ex4/README.md)
+        - [Configure the RFC Connection](exercises/ex5/README.md)
+        - [Configure the Data Replication Framework - Business System](exercises/ex6/README.md)
+        - [Configure the Data Replication Framework - Replication Model](exercises/ex7/README.md)
+        - [Run Replication for configured entities](exercises/ex8/README.md)
 - [Enable SAP Order and Delivery Scheduling solution](exercises/ex3/README.md)
-- [Run the biz scenario with IRM and ODS](exercises/ex4/README.md) 
+- [Run the biz scenario with IRM and ODS](exercises/ex9/README.md) 
   
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.

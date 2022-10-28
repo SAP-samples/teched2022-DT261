@@ -213,4 +213,4 @@ Now that you have enabled SAP Order and Delivery Scheduling solution, you need t
 
 <br>
 
-### Go back to: [**Overview**](../../README.md) or Continue to: <!-- //Add the right exercise for the demo [**Enable data integration via Data Ingestion for Industry Cloud**](../ex1/README.md) --> 
+### Go back to: [**Run Replication for configured entities**](exercises/ex8/README.md) or Continue to: [**Run the ODS biz scenario**](exercises/ex9/README.md)
