@@ -27,14 +27,13 @@ To complete the exercises below, you need access (licenses) to the following SAP
 
 Exercises must be executed in the order below:
 
-<!-- to be validated with Christian and Fabian -->
-
-- [Enable SAP Intelligent Returns Management solution](exercises/ex0/README.md) <!--Stani-->
-- [Enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud](exercises/ex1/README.md)<!--Stani-->
-    - [Enable Data Ingestion for Industry Cloud Solutions](exercises/ex1/README.md)<!--Stani-->
-    - [Integrate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex2/README.md)
-- [Enable SAP Order and Delivery Scheduling solution](exercises/ex3/README.md) <!--Stani-->
-- [Run the biz scenario with IRM and ODS](exercises/ex4/README.md) <!--Christian-->
+- [Enable SAP Intelligent Returns Management solution](exercises/ex0/README.md)
+- [Enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud](exercises/ex1/README.md)
+    - [Enable Data Ingestion for Industry Cloud Solutions](exercises/ex1/README.md)
+    - [Configure Data Ingestion for Industry Cloud Solutions](exercises/ex2/README.md)
+    - [Integrate Data Ingestion for Industry Cloud with S/4HANA on-prem system](exercises/ex4/README.md)
+- [Enable SAP Order and Delivery Scheduling solution](exercises/ex3/README.md)
+- [Run the biz scenario with IRM and ODS](exercises/ex4/README.md) 
   
 ## License
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.

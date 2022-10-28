@@ -177,16 +177,40 @@ In order to be able to use the ODS capabilities, you need to configure it in the
       ![](/exercises/ex3/images/65.png)
       ![](/exercises/ex3/images/66.png)
 
-<!-- To complete the steps for role assignments for the site>
+## Add ODSs Roles to the ODS Role Collection and assign it to your user.
 
+1. Add ODS Roles to pre-created ODS Role Collection.
 
-<br>After completing these steps you will have enabled SAP Intelligent Returns Management solution and have access to its application.
+   - From the navigation menu of BTP cockpit, navigate to ***Security*** > ***Role Collections***. Select the predefined ***~ods_apps_ODS_ADMINISTRATOR*** Role Collection and click on the ***Edit*** button in the top-right corner of the screen.
 
-## Summary
+      ![](/exercises/ex3/images/67.png)
 
-Now that you have enabled SAP Intelligent Returns Management, you need to enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud.
+   - Click on the popup button in the ***Role Name*** field.
+
+      ![](/exercises/ex3/images/68.jpg)
+
+   - In ***Select: Role*** view:
+     - Select ***`All`*** for ***Role Name***
+     - Select ***`order-delivery-scheduling!*****`*** for ***Application Identifier***, 
+     - Check the checkbox as om the screenshot to select all ***Roles***,
+     - Click ***Add*** button.
+
+      ![](/exercises/ex3/images/69.jpg)
+   
+   - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+
+      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+
+      ![](/exercises/ex3/images/70.jpg)
+
+<br>After completing these steps you will have enabled SAP Order and Delivery Scheduling solution and have access to its application.
+
+## Next
+
+Now that you have enabled SAP Order and Delivery Scheduling solution, you need to run the the following scenario:
+<!-- describe the demo scenario in the next step-->
+
 
 <br>
 
-### Go back to: [**Overview**](../../README.md) or Continue to: [**Enable data integration via Data Ingestion for Industry Cloud**](../ex1/README.md)
---> 
+### Go back to: [**Overview**](../../README.md) or Continue to: <!-- //Add the right exercise for the demo [**Enable data integration via Data Ingestion for Industry Cloud**](../ex1/README.md) --> 

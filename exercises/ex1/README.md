@@ -60,9 +60,8 @@ In order to use the DI application you need to subscribe to it and assign requir
       ![](/exercises/ex1/images/29.png)
 
    - In ***Select: Role*** view:
-[//]: # (TODO: My application identifier is different. Is that intended? Should we wild-card?)
      - Select ***`All`*** for ***Role Name***
-     - Select ***`di4cic!b9957`*** for ***Application Identifier***, 
+     - Select ***`di4cic!*****`*** for ***Application Identifier***, 
      - Check the checkboxes for ***`integration-settingsREAD`***, ***`integration-settingsWRITE`***, ***`UsersandRolePermissionREAD`***, and ***`UsersandRolePermissionWRITE`*** Roles,
      - Click ***Add*** button.
 
@@ -119,10 +118,10 @@ In order to enable integration to SAP S/4HANA you need to create credentials for
 ## Configure content of DI .
 [//]: # (TO DO)
 
-<br>After completing these steps you will have enabled Data Ingestion for Industry Cloud Solutions and have access to its application and APIs.
+<br>After completing these steps you have enabled Data Ingestion for Industry Cloud Solutions and have access to its application and APIs.
 
-## Summary
+## Next Steps
 
-Now that you have enabled ata Ingestion for Industry Cloud Solutions, you need to integrate it to SAP S/4HANA.
+Now that you have enabled ata Ingestion for Industry Cloud Solutions, you need to configure it
 <br>
 ### Go back to: [Enable SAP Intelligent Returns Management solution](../ex0/README.md) or Continue to: [Integrate Data Ingestion for Industry Cloud with S/4HANA on-prem system](../ex2/README.md)

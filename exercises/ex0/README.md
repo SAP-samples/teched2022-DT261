@@ -102,7 +102,7 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
 
    - In ***Select: Role*** view:
      - Select ***`All`*** for ***Role Name***
-     - Select ***`irm!b1345`*** for ***Application Identifier***, 
+     - Select ***`irm!*****`*** for ***Application Identifier***, 
      - Check the checkboxes for ***`ReturnObjectREAD`***, ***`ReturnObjectWRITE`***, and ***`SettingsREAD`*** Roles,
      - Click ***Add*** button.
 
@@ -116,8 +116,7 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
 
 <br>After completing these steps you will have enabled the SAP Intelligent Returns Management solution and have access to its application.
 
-[//]: # (Is Summary a good title or should it be "Next Steps")
-## Summary
+## Next Steps
 
 Now that you have enabled SAP Intelligent Returns Management, you need to enable data integration from SAP S/4HANA via Data Ingestion for Industry Cloud.
 

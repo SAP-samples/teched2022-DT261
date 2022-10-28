@@ -28,6 +28,7 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 9. Select all Data Objects and click 'Activate'  <br>![](/exercises/ex2/images/EX2_9.jpg)
 10. Confirm the activation <br>![](/exercises/ex2/images/EX2_10.jpg)
 
-
+## Next Steps:
+Now that you have configured Data Ingestion for Industry Cloud Solutions, you need to integrate it to SAP S/4HANA.
 <br> 
 ### Go back to: [Configure the Data Replication Framework - Business System)(../ex6/README.md) or Continue to: [Run Replication for configured entities](../ex8/README.md)
