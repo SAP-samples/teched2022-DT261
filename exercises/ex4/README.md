@@ -11,13 +11,13 @@ In this exercise we will create an OAuth client later used in the connectivity t
 6. For the OAuth 2.0 configuration enter the 'Client Secret' in section General Settings. You find the client secret in the file in step 4 (element 'clientsecret').   
 7. In section Authorization Server Settings find the fields Authorization Endpoint and Toke Endpoint.
    - 'Authorization Endpoint': Concatenate the value for element 'url' and /oauth/token?grant_type=client_credentials&response_type=token
-   - 'Token Endpoint': Concatenate the value for element 'url' and /oauth/token?grant_type=client_credentials&response_type=token <br>![](/exercises/ex4/images/teched6.jpg)
+   - 'Token Endpoint': Concatenate the value for element 'url' and /oauth/token?grant_type=client_credentials&response_type=token <br>![](images/teched6.jpg)
 8. In Section Access Settings select 'Client Credentials'
 9. Save.
 
 ### Go back to: [**Configure Data Ingestion for Industry Cloud Solutions**](../ex2/README.md) or Continue to: [**Configure the RFC Connection**](../ex5/README.md)
 
-[def]: /exercises/ex4/images/teched_error1.jpg
-[def2]: /exercises/ex4/images/EX4_2.jpg
-[def3]: /exercises/ex4/images/EX4_3.jpg
-[def4]: /exercises/ex4/images/EX4_5.jpg
+[def]: images/teched_error1.jpg
+[def2]: images/EX4_2.jpg
+[def3]: images/EX4_3.jpg
+[def4]: images/EX4_5.jpg

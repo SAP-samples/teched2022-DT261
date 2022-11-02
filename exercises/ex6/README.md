@@ -5,10 +5,10 @@ We will use throughout the next exercises transaction DRFIMG to configure outbou
 
 ## Maintain a Business System for Replication
 You configure the connection maintained in exercise 5 as business system for DRF.
-1. Go to Define Custom Settings for Data Replication -> Define Technical Settings -> Define Technical Settings for Business Systems <br>![](/exercises/ex6/images/EX6_1.jpg)
+1. Go to Define Custom Settings for Data Replication -> Define Technical Settings -> Define Technical Settings for Business Systems <br>![](images/EX6_1.jpg)
 2. Select 'New Entries'
 3. Enter in column 'RFC Destination' the destination you created in exercise 5.
-4. Enter in column 'Business System' the same destination <br>![](/exercises/ex6/images/EX6_2.jpg)
+4. Enter in column 'Business System' the same destination <br>![](images/EX6_2.jpg)
 5. No other changes or entries are required.
 6. Press enter, ignore the warning and save.
 

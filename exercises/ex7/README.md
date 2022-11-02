@@ -6,12 +6,12 @@ Starting point is again the DRF configuration, transaction code DRFIMG (IMG path
 ## Maintain a Replication Model
 
 You require the business system configured in exercise 6.
-1. Go to Define Custom Settings for Data Replication -> Define Technical Settings -> Define Replication Models <br>![](/exercises/ex7/images/EX7_1.jpg)
+1. Go to Define Custom Settings for Data Replication -> Define Technical Settings -> Define Replication Models <br>![](images/EX7_1.jpg)
 2. Select 'New Entries'
-3. Create replication model DT261_<group number> with a short text <br>![](/exercises/ex7/images/EX7_2.jpg)<br>replication model *DT261_00* can be used as template. 
-4. Select the replication model and click on Assign Outbound Implementation <br>![](/exercises/ex7/images/EX7_3.jpg)
-5. For the example of the supplier this looks like this <br>![](/exercises/ex7/images/EX7_4.jpg)
-6. Select the Outbound Implementations and click on 'Assign Target Systems for Repl. Model/Outb. Impl' and assign the Business System defined in exercise 6 to the Outbound Implementation <br>![](/exercises/ex7/images/EX7_5.jpg)
+3. Create replication model DT261_<group number> with a short text <br>![](images/EX7_2.jpg)<br>replication model *DT261_00* can be used as template. 
+4. Select the replication model and click on Assign Outbound Implementation <br>![](images/EX7_3.jpg)
+5. For the example of the supplier this looks like this <br>![](images/EX7_4.jpg)
+6. Select the Outbound Implementations and click on 'Assign Target Systems for Repl. Model/Outb. Impl' and assign the Business System defined in exercise 6 to the Outbound Implementation <br>![](images/EX7_5.jpg)
 7. Add other Outbound Implementations to the Replication Model. Don't forget to assign a target system to each outbound implementation (see step 6.) <br> 
 
 |   **Outbound Implementation**	|
@@ -44,7 +44,7 @@ You require the business system configured in exercise 6.
 |        CIC_PROD         |
 
 8. Save your changes.
-9.  Return to the Replication Model overview, select your Replication Model and press 'Activate'. <br> ![](/exercises/ex7/images/EX7_6.jpg) 
+9.  Return to the Replication Model overview, select your Replication Model and press 'Activate'. <br> ![](images/EX7_6.jpg) 
 
 <br> 
 

@@ -14,6 +14,6 @@ You will use the Replication Model configured in exercise 7.
 
 ### Go back to: [**Configure the Data Replication Framework - Replication Model**](../ex7/README.md) or Continue to: [**Enable SAP Order and Delivery Scheduling solution**](../ex3/README.md)
 
-[def]: /exercises/ex8/images/EX8_2.jpg
-[def2]: /exercises/ex8/images/EX8_1.jpg
+[def]: images/EX8_2.jpg
+[def2]: images/EX8_1.jpg
 
