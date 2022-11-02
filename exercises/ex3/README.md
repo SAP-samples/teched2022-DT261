@@ -4,7 +4,7 @@ In this exercise, you will enable and configure the usage of SAP Order and Deliv
 
 ## Assign entitlements for the SAP Order and Delivery Scheduling (ODS) Industry Cloud solution
 
-In order to enable ODS you need to have entitlements assigned to your subaccount.
+In order to enable ODS you need to have entitlements assigned to your Subaccount.
 
 1. Add entitlement for ODS to your Subaccount:
 
@@ -192,7 +192,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
    - In ***Select: Role*** view:
      - Select ***`All`*** for ***Role Name***
      - Select ***`order-delivery-scheduling!*****`*** for ***Application Identifier***, 
-     - Check the checkbox as om the screenshot to select all ***Roles***,
+     - Check the checkbox as in the screenshot to select all ***Roles***,
      - Click ***Add*** button.
 
       ![](images/69.jpg)
@@ -203,14 +203,13 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
       ![](images/70.jpg)
 
-<br>After completing these steps you will have enabled SAP Order and Delivery Scheduling solution and have access to its application.
+After completing these steps you will have enabled SAP Order and Delivery Scheduling solution and have access to its application.
 
-## Next
+## Next Steps
 
-Now that you have enabled SAP Order and Delivery Scheduling solution, you need to run the the following scenario:
+Now that you have enabled SAP Order and Delivery Scheduling solution, you need to run the following scenario:
+
+[//]: # (TODO)
 <!-- describe the demo scenario in the next step-->
-
-
-<br>
 
 ### Go back to: [**Run Replication for configured entities**](../ex8/README.md) or Continue to: [**Run the ODS biz scenario**](../ex9/README.md)

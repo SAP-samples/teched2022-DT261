@@ -6,9 +6,9 @@ This repository contains the material for the SAP TechEd 2022 session called DT2
 
 ## Overview
 
-The Consumer Industries Cloud offers a modular cloud suite. Data Ingestion for Industry Cloud (DI) provides the integration into the modular suite. DI promotes the sharing of data between applications and ensures a seamless integration with SAP S/4HANA. In our session we will configure this integration for master data from S/4HANA to the industry cloud.
+The Industry Cloud offers a modular cloud suite. Data Ingestion for Industry Cloud (DI) provides the integration into this modular suite. DI promotes the sharing of data between applications and ensures a seamless integration with SAP S/4HANA. In our session, we will configure this integration for master data from S/4HANA to the industry cloud.
 
-We will use the examples of SAP Order and Delivery Schedule (ODS) and SAP Intelligent Returns Management (IRM), two offerings of the modular suite. ODS is in charge of defining possible delivery windows for suppliers based on configuration and SAP S/4HANA master data. IRM streemlines the returns process for a retailer by guiding consumers through the handling of an item and an AI based disposition engine in the warehouse to handle the returns.   
+We will use the examples of SAP Order and Delivery Schedule (ODS) and SAP Intelligent Returns Management (IRM), two offerings of the modular suite. ODS is in charge of defining possible delivery windows for suppliers based on configuration and SAP S/4HANA master data. IRM streamlines the returns process for a retailer by guiding consumers through the handling of an item and an AI based disposition engine in the warehouse to handle the returns.   
 
 Data will flow from SAP S/4HANA to Data Ingestion and is distributed to the applications.
 
@@ -21,11 +21,11 @@ To complete the exercises below, you need access (licenses) to the following SAP
 - Data Ingestion for Industry Cloud Solutions
 - SAP Fiori Launchpad
 
-> **Note:** You will be provided with an environment having above requirements available for the on-site SAP TechEd Hands-On Lab workshop.
+> **Note:** You will be provided with an environment having the above requirements available for the on-site SAP TechEd Hands-On Lab workshop.
 
 ## Exercises
 
-Exercises must be executed in the order below:
+The exercises must be executed in the order below:
 
 - [Enable SAP Intelligent Returns Management solution](exercises/ex0/README.md)
 - [Enable data integration to SAP S/4HANA via Data Ingestion for Industry Cloud](exercises/ex1/README.md)
