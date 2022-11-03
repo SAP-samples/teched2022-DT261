@@ -1,11 +1,8 @@
 # Run ODS demo scenario
-...
+Go to the Order Delivery Schedule (ODS) application and select tile 'Configure Order and Delivery Schedule'.
 
-## Run Replication 
-1. ...
+![](images/EX9_1.jpg)
 
-## Next Steps
-
-[//]: # (TODO: Add a description of what happens next)
-
-### Go back to: [**Enable SAP Order and Delivery Scheduling solution**](../ex3/README.md)
+1. Go to tab 'Scheduling Group'.
+   
+2. Select Data that you replicated in exercise 8.
