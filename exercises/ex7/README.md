@@ -45,7 +45,6 @@ You require the business system configured in exercise 6.
 | CIC_CHTC                    |   	
 | CIC_DIV                     |   	
 | CIC_CUSTOD                  |  
-| CIC_PURORG                  |   
 | CIC_PRDPLT                  | 
 | CIC_TEMPB                   |   
 | CIC_LOADGP                  | 
@@ -56,7 +55,6 @@ You require the business system configured in exercise 6.
 | CIC_PROD                    | 
 | CIC_HOLIDY                  |
 | CIC_CURC                    |
-| CIC_DCHAIN                  |
 | CIC_DIST                    |
 | CIC_LANG                    |
 | CIC_PLANT                   |
