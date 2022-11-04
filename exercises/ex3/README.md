@@ -167,7 +167,18 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
       ![](images/62.png)
       ![](images/63.png)
-
+   
+   - Assign ODS roles to the site by:
+     - Clicking on ***Edit*** button,
+      
+      ![](images/71.jpg)
+      
+     - Searching for ***`SAP Order and Delivery`*** in thre ***Assign Items:*** search field,
+     - Selecting the 3 items from the ***Results*** section,
+     - clicking on ***Save*** button.
+      
+      ![](images/72.jpg)
+     
    - In the Settings view of the site you just created, click on the **<** button in the top-left corner to get back to the *Site Directory*. 
 
       ![](images/64.png)
@@ -209,7 +220,5 @@ After completing these steps you will have enabled SAP Order and Delivery Schedu
 
 Now that you have enabled SAP Order and Delivery Scheduling solution, you need to run the following scenario:
 
-[//]: # (TODO)
-<!-- describe the demo scenario in the next step-->
 
 ### Go back to: [**Run Replication for configured entities**](../ex8/README.md) or Continue to: [**Run the ODS biz scenario**](../ex9/README.md)
