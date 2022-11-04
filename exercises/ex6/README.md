@@ -1,28 +1,27 @@
 # Configure the Data Replication Framework - Business System
 We use Data Replication Framework to read S/4HANA source data, transform it to the Industry Cloud format (One Domain Model) and send the data out to gateway.
 
-We will use throughout the next exercises transaction DRFIMG to configure outbound implementations (IMG path: SAP Customizing Implementation Guide -> Logistics General -> Merchandise Lifecycle Optimization -> Outbound -> Data Replication Framework).
+You will configure the connection maintained in the previous exercise as Business System for DRF.
 
 ## Maintain a Business System for Replication
-You configure the connection maintained in exercise 5 as business system for DRF.
 
-1. Go to Define Custom Settings for Data Replication -> Define Technical Settings -> Define Technical Settings for Business Systems
+- Call transaction `DRFIMG`
+
+- Go to *Data Replication* -> *Define Custom Settings for Data Replication* -> *Define Technical Settings* -> *Define Technical Settings for Business Systems*
 
     ![](images/EX6_1.jpg)
 
-2. Select ***New Entries***
+- Click the ***New Entries*** button
 
-3. Enter in column ***RFC Destination*** the destination you created in exercise 5.
+- Enter the destination from the previous exercise in the ***RFC Destination*** column (e.g. ***`DT261_<your participant number>`***).
 
-4. Enter in column ***Business System*** the same destination
+- Enter the name of your destination in the ***Business System*** column.
 
     ![](images/EX6_2.jpg)
 
-5. No other changes or entries are required.
+- Click the ***Save*** button - ignore the warning.
 
-6. Press enter, ignore the warning and save.
-
-> **Note:** The warning in step 6 will state that the business system selected in not part of the System Landscape Directory (SLO). For the purpose of this exercise the warning can be ignored.
+   > The warning will state that the selected Business System is not part of the System Landscape Directory (SLO). For the purpose of this exercise the warning can be ignored.
 
 ## Next Steps
 

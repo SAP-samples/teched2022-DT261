@@ -1,33 +1,37 @@
 # Configure the RFC Connection
-In this exercise, you will configure the connection using the OAuth profile from the previous exercise. 
+In this exercise, you will configure the connection using the OAuth Client Profile from the previous exercise. 
 The RFC connection will be used for the outbound calls to Data Ingestion.
 
 [//]: # (TODO: Fix this heading)
 ## Create an OAuth client
 
-1. Call transaction `SM59`
+- Call transaction `SM59`
 
-2. Press the ***Create*** button
+- Press the ***Create*** button
 
-3. enter 'Destination' <todo find a name>
+- In the *Create Destination* dialog:
+   - Enter a destination name for ***Destination*** (e.g. ***`DT261_<your participant number>`***),
+   - Select ***`G HTTP connection to external server`*** for ***Connection Type***,
+   - Click the green checkmark button (*Continue*).
 
-4. Selection connection type G - 'HTTP connection to external server'
+- In the ***Technical Settings*** tab of the new page:
+   - Enter the ***`openapi_url`*** from the service binding file in the ***Host*** field. Remove `https://` from the value.<br>E.g.: For `"openapi_url":"https://api.us.teched.sap"` the 'Host' will be `api.us.teched.sap`
 
-5. In the tab 'Technical Settings' enter the value of 'openapi_url' in field 'Host'. Remove `https://` from the value.<br> E.g.: For `"openapi_url":"https://api.us.teched.sap"` the 'Host' will be `api.us.teched.sap`
+      ![](images/EX5_1.jpg)
 
-    ![](images/EX5_1.jpg)
+- In the ***Logon & Security*** tab:
+   - Push the ***OAuth Settings*** button,
 
-6. Go to tab 'Logon & Security' and push button 'OAuth Settings'
+[//]: # (TODO: Needs name)
+   - Select the Profile and Configuration from exercise 4 <todo add name>,
 
-7. Select Profile and Configuration from exercise 4 <todo add name>
+      ![](images/EX5_2.jpg)
 
-    ![](images/EX5_2.jpg)
+   - Select the ***Active*** radio button for the ***SSL*** field in the *Status of Secure Protocol* section,
 
-8. Select 'SSL - Active' on the same tab 'Logon & Security'.
+      ![](images/EX5_3.jpg)
 
-    ![](images/EX5_3.jpg)
-
-9. Press the ***Save*** button.
+   - Press the ***Save*** button.
 
 ## Next Steps
 

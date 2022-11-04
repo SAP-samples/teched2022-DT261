@@ -19,7 +19,7 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
        ![](images/EX2_2.jpg)
 
 [//]: # (TODO: Replace screenshot with DT261)
-   - Set the *System Name* (e.g. ***`DT260_<your group number>`***) and click the ***Add*** button.
+   - Set the *System Name* (e.g. ***`DT261_<your participant number>`***) and click the ***Add*** button.
 
        ![](images/EX2_4.jpg)
 
