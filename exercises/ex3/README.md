@@ -126,7 +126,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
    - In the ***Destination Configuration*** view, set:
      - ***`flp-content-provider-destination`*** for *Name*,
      - ***`HTTP`*** for *Type*,
-     - ***`https://app.orderdeliveryscheduling.cloud.sap/api/flpContent`*** for *URL*,
+     - ***`<uri value from the credentials created for ODS service instance>/api/flpContent`*** for *URL*,
      - ***`OAuth2ClientCredentials`*** for *Authentication*,
      - ***`<client id value from the credentials created for ODS service instance>`*** for *Client ID*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`<client secret value from the credentials created for ODS service instance>`*** for *Client Secret*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
