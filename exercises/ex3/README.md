@@ -171,13 +171,13 @@ In order to be able to use the ODS capabilities, you need to configure it in the
    - Assign ODS roles to the site by:
      - Clicking on ***Edit*** button,
       
-      ![](images/71.jpg)
+         ![](images/71.jpg)
       
      - Searching for ***`SAP Order and Delivery`*** in thre ***Assign Items:*** search field,
      - Selecting the 3 items from the ***Results*** section,
      - clicking on ***Save*** button.
       
-      ![](images/72.jpg)
+         ![](images/72.jpg)
      
    - In the Settings view of the site you just created, click on the **<** button in the top-left corner to get back to the *Site Directory*. 
 
