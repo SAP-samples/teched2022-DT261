@@ -131,7 +131,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
      - ***`<client id value from the credentials created for ODS service instance>`*** for *Client ID*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`<client secret value from the credentials created for ODS service instance>`*** for *Client Secret*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - ***`Dedicated`*** for *Token Service URL Type*,
-     - ***`<url value from the credentials created for ODS service instance>`*** for *Token Service URL*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
+     - ***`<url value from the credentials created for ODS service instance>/oauth/token`*** for *Token Service URL*. You have downloaded the ODS service instance credentials in **Step 4.** from  **Enable SAP Order and Delivery Scheduling and configure access to it** above,
      - Click on ***Save***.
 
         ![](images/57.png)
