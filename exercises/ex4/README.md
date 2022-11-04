@@ -22,7 +22,7 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
       ![](images/EX4_2.jpg)
 
    - In the *Create* dialog:
-      - Select ***`OPPS_OAUTH2_PROFILE`*** as ***OAuth 2.0 Client Profile***,
+      - Select ***`CIC_OAUTH_PROFILE`*** as ***OAuth 2.0 Client Profile***,
       - Enter a name in ***Configuration Name*** (e.g. ***`DT261_<your participant number>`***),
 
         ![](images/EX4_5.jpg)
@@ -45,7 +45,9 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
      ![](images/teched6.jpg)
 
-   - Select ***Client Secret*** from the *Client Authentication* selector.
+   - Select ***Client Credentials*** from the *Selected Grant Type* selector.
+
+    ![](images/EX4_7.jpg)
    
    - Click the ***Save*** button at the top of the screen.
 

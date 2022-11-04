@@ -23,7 +23,7 @@ The RFC connection will be used for the outbound calls to Data Ingestion.
    - Push the ***OAuth Settings*** button,
 
 [//]: # (TODO: Needs name)
-   - Select the Profile and Configuration from exercise 4 <todo add name>,
+   - Select the Profile and Configuration from exercise 4 CIC_OAUTH_PROFILE and the configuration name from exercise 4,
 
       ![](images/EX5_2.jpg)
 
