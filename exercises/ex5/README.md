@@ -3,6 +3,8 @@
 In this exercise, you will configure the connection using the OAuth Client Profile from the previous exercise. 
 The RFC connection will be used for the outbound calls to Data Ingestion.
 
+You can use connection `DT261_00` as reference for this exercise.
+
 [//]: # (TODO: Fix this heading)
 
 ## Create an OAuth client
@@ -34,7 +36,7 @@ The RFC connection will be used for the outbound calls to Data Ingestion.
       ![](images/EX5_3.jpg)
 
    - Press the ***Save*** button.
-   
+
    - Run a connection test.
 
    ![](images/EX5_4.jpg)
