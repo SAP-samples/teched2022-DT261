@@ -44,7 +44,7 @@ You can use connection `DT261_00` as reference for this exercise.
   
 
 ## Next Steps
-
+In the next step we will configure the Data Replication Framework.
 [//]: # (TODO: Add a description of what happens next)
 
 ### Go back to: [**Create an OAuth client**](../ex4/README.md) or Continue to: [**Configure the Data Replication Framework - Business System**](../ex6/README.md)

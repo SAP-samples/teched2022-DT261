@@ -18,20 +18,20 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 
        ![](images/EX2_2.jpg)
 
-[//]: # (TODO: Replace screenshot with DT261)
-   - Set the *System Name* (e.g. ***`DT261_<your participant number>`***) and click the ***Add*** button.
+   - Set the *System Name* `S4HANAHE4` and click the ***Add*** button.
 
        ![](images/EX2_4.jpg)
 
-       > **Note:** The Business System will be important in [Exercise 6](../ex6/README.md).
+       **Note:** The system name `S4HANAHE4` is specified in the source system System Landscape Directory (SLD). It typically contains a client number so that one Data Ingestion tenant can receive data from 2 clients of the same source system.
 
-2. Assign the Business System to the Business Partner Data Object:
+      
+2. Assign the Business System to the `Product` Object:
 
    - Go to ***Data Ingestion*** tab. 
 
        ![](images/EX2_5.jpg)
 
-   - Select the ***Edit*** (*Pencil*) button of the Business Partner Data Object. 
+   - Select the ***Edit*** (*Pencil*) button of the `Product` Data Object. 
 
        ![](images/EX2_6.jpg)
 
@@ -42,9 +42,14 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 
       ![](images/EX2_7.jpg)
 
-   - The line with Business Partner should look like this: 
+   - The line with Product should look like this: 
 
-       ![](images/EX2_8.jpg)
+       ![](images/EX2_8.jpg) <br>
+
+       ![](images/EX2_11.jpg)
+
+        **Note:** It can be required to edit the entity twice, the Process Status needs to be `Activated`.
+
 
 3. Assign the Business System to other Data Objects:
 
@@ -56,7 +61,7 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
       - Language Codes
       - MerchandiseCategoryHierarchyNode
       - Plant
-      - Product
+      - Business Partner
       - Sales Organization
       - UnitOfMeasureCodes
 
