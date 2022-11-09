@@ -190,6 +190,10 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
 ## Add ODSs Roles to the ODS Role Collection and assign it to your user.
 
+In this section, you will configure the access to the ODS application.
+
+>**Note:** For simplicity, below steps describe how to add all ODS Roles to one of the Role Collections. In production scenarios, you need to properly assign the different ODS Roles to the corresponding Role Collections.
+
 1. Add ODS Roles to pre-created ODS Role Collection.
 
    - From the navigation menu of BTP cockpit, navigate to ***Security*** > ***Role Collections***. Select the predefined ***~ods_apps_ODS_ADMINISTRATOR*** Role Collection and click on the ***Edit*** button in the top-right corner of the screen.
@@ -213,6 +217,26 @@ In order to be able to use the ODS capabilities, you need to configure it in the
       > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/70.jpg)
+
+   - Select the predefined ***~ods_apps_ODS_CONFIGURATION_EXPERT*** Role Collection and click on the ***Edit*** button in the top-right corner of the screen.
+
+      ![](images/73.jpg)
+   
+   - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+
+      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+
+      ![](images/74.jpg)
+
+   - Select the predefined ***~ods_apps_ODS_SUPPLY_CHAIN_PLANNER*** Role Collection and click on the ***Edit*** button in the top-right corner of the screen.
+
+      ![](images/75.jpg)
+   
+   - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
+
+      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+
+      ![](images/76.jpg)
 
 After completing these steps you will have enabled SAP Order and Delivery Scheduling solution and have access to its application.
 
