@@ -10,11 +10,13 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
    - Log on to your S/4HANA system using your username and password.
 
-      > **Note:** During your TechEd hands-on, you will be provided with a predefined username and password.
+      > **Note**
+      > During your TechEd hands-on, you will be provided with a predefined username and password.
 
    - Call transaction `OA2C_CONFIG`. A browser window will open. Log on with the credentials from the previous step.
 
-      > **Note:** In case of an error like below, copy the url and enter it in a browser.
+      > **Note**
+      > In case of an error like below, copy the url and enter it in a browser.
          ![](images/teched_error1.jpg)
 
    - Press the ***Create*** button.

@@ -3,6 +3,7 @@ After the configuration of the Replication Model you will now start replication 
 You will use the Replication Model configured in exercise 7. 
 
 ## Run Replication 
+
 1. Call transaction `DRFOUT`.
 
 2. Enter the Replication Model you maintained in exercise 7. It should be `DT261_<group number>`.

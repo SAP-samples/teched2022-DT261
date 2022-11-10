@@ -4,6 +4,9 @@ In this exercise, you will enable and configure the usage of SAP Order and Deliv
 
 ## Assign entitlements for the SAP Order and Delivery Scheduling (ODS) Industry Cloud solution
 
+> **Note**
+> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+
 In order to enable ODS you need to have entitlements assigned to your Subaccount.
 
 1. Add entitlement for ODS to your Subaccount:
@@ -22,7 +25,8 @@ In order to enable ODS you need to have entitlements assigned to your Subaccount
       ![](images/40-1.png) 
 
    - Click ***Save*** on the Entitlements view.
-      > **Note:** Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with next exercises. 
+      > **Note**
+      > Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with next exercises. 
       
       ![](images/41.png)
 
@@ -82,7 +86,8 @@ In order to be able to use the ODS capabilities, you need to enable the ODS appl
       
       ![](images/50.png)
    
-   > **Note:** These credentials will be needed in the next steps in order to configure the integration in Launchpad Service.
+   > **Note**
+   > These credentials will be needed in the next steps in order to configure the integration in Launchpad Service.
 
 ## Enable SAP BTP Launchpad Service and configure the ODS application in it
 
@@ -113,7 +118,8 @@ In order to be able to use the ODS capabilities, you need to configure it in the
    
    - Add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > **Note**
+      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/55.png)
 
@@ -157,7 +163,8 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
         ![](images/60.png)
 
-      >**Note:** Make sure that you get successful status ***Created***.
+      > **Note**
+      > Make sure that you get successful status ***Created***.
       
         ![](images/61.png)
 
@@ -192,7 +199,8 @@ In order to be able to use the ODS capabilities, you need to configure it in the
 
 In this section, you will configure the access to the ODS application.
 
->**Note:** For simplicity, below steps describe how to add all ODS Roles to one of the Role Collections. In production scenarios, you need to properly assign the different ODS Roles to the corresponding Role Collections.
+> **Note**
+> For simplicity, below steps describe how to add all ODS Roles to one of the Role Collections. In production scenarios, you need to properly assign the different ODS Roles to the corresponding Role Collections.
 
 1. Add ODS Roles to pre-created ODS Role Collection.
 
@@ -214,7 +222,8 @@ In this section, you will configure the access to the ODS application.
    
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
 
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > **Note**
+      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/70.jpg)
 
@@ -224,7 +233,8 @@ In this section, you will configure the access to the ODS application.
    
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
 
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > **Note**
+      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/74.jpg)
 
@@ -234,7 +244,8 @@ In this section, you will configure the access to the ODS application.
    
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
 
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > **Note**
+     > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/76.jpg)
 

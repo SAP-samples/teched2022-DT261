@@ -22,7 +22,8 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 
        ![](images/EX2_4.jpg)
 
-       **Note:** The system name `S4HANAHE4` is specified in the source system System Landscape Directory (SLD). It typically contains a client number so that one Data Ingestion tenant can receive data from 2 clients of the same source system.
+       > **Note**
+       > The system name `S4HANAHE4` is specified in the source system System Landscape Directory (SLD). It typically contains a client number so that one Data Ingestion tenant can receive data from 2 clients of the same source system.
 
       
 2. Assign the Business System to the `Product` Object:
@@ -44,11 +45,12 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 
    - The line with Product should look like this: 
 
-       ![](images/EX2_8.jpg) <br>
+      ![](images/EX2_8.jpg) <br>
 
-       ![](images/EX2_11.jpg)
+      ![](images/EX2_11.jpg)
 
-        **Note:** It can be required to edit the entity twice, the Process Status needs to be `Activated`.
+      > **Note**
+      > It can be required to edit the entity twice, the Process Status needs to be `Activated`.
 
 
 3. Assign the Business System to other Data Objects:
