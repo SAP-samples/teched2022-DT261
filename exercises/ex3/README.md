@@ -4,6 +4,9 @@ In this exercise, you will enable and configure the usage of SAP Order and Deliv
 
 ## Assign entitlements for the SAP Order and Delivery Scheduling (ODS) Industry Cloud solution
 
+> **Note**
+> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+
 In order to enable ODS you need to have entitlements assigned to your Subaccount.
 
 1. Add entitlement for ODS to your Subaccount:

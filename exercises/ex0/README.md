@@ -13,7 +13,7 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
    - Provide your username and password and press ***Log On***.
       
       > **Note**
-      > During your TechEd hands-on, you will be provided with a predefined username and password.
+      > During your TechEd Hands-On, you will be provided with a predefined username and password.
 
       ![](images/1.png)
 
@@ -23,11 +23,12 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
 
 ## Create your Subaccount and assign entitlements for SAP Intelligent Returns Management (IRM)
 
+> **Note**
+> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+
 In order to enable SAP IRM, you need to create a Subaccount in one of the supported regions and assign IRM entitlements to it.
 
 1. Create a Subaccount in the desired region:
-    > **Note**
-    > You will be provided with a pre-created Subaccount for the on-site TechEd hands-on workshop, so you do not have to execute this step. Please ask your instructors for more details.
 
     - Click on **_Create_** > ***Subaccount***.
 

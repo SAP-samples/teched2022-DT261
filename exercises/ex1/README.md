@@ -4,6 +4,9 @@ In this exercise, you will enable Data Ingestion for Industry Cloud solutions (D
 
 ## Assign entitlements for Data Ingestion for Industry Cloud Solutions.
 
+> **Note**
+> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+
 In order to enable DI, you need to have entitlements assigned to your Subaccount.
 
 1. Add entitlements for DI to your Subaccount:
