@@ -18,7 +18,8 @@ You require the business system configured in exercise 6.
 
    ![](images/EX7_2.jpg)
 
-   > **Note:** During your TechEd Hands-On, you can use replication model `DT261_00` as a template.
+   > **Note**
+   > During your TechEd Hands-On, you can use replication model `DT261_00` as a template.
 
 4. Select the replication model and click on Assign Outbound Implementation
    

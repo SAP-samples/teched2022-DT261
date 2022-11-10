@@ -7,11 +7,13 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
 1. Log in to the SAP BTP cockpit:
    - Open [https://cockpit.**us21**.hana.ondemand.com/cockpit/](https://cockpit.us21.hana.ondemand.com/cockpit/#).
 
-      > **Note:** You can exchange the ***us21*** from the URL with another region in case you are not based in the USA.
+      > **Note**
+      > You can exchange the ***us21*** from the URL with another region in case you are not based in the USA.
 
    - Provide your username and password and press ***Log On***.
       
-      > **Note:** During your TechEd hands-on, you will be provided with a predefined username and password.
+      > **Note**
+      > During your TechEd hands-on, you will be provided with a predefined username and password.
 
       ![](images/1.png)
 
@@ -24,7 +26,8 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
 In order to enable SAP IRM, you need to create a Subaccount in one of the supported regions and assign IRM entitlements to it.
 
 1. Create a Subaccount in the desired region:
-    > **Note:** You will be provided with a pre-created Subaccount for the on-site TechEd hands-on workshop, so you do not have to execute this step. Please ask your instructors for more details.
+    > **Note**
+    > You will be provided with a pre-created Subaccount for the on-site TechEd hands-on workshop, so you do not have to execute this step. Please ask your instructors for more details.
 
     - Click on **_Create_** > ***Subaccount***.
 
@@ -35,7 +38,8 @@ In order to enable SAP IRM, you need to create a Subaccount in one of the suppor
       - *Subdomain*. Example: ***`dt261`***, 
       - *Region*. Example: ***`Microsoft Azure US East (VA) cf-us21`***, 
 
-        > **Note:** You need to choose a region in which SAP IRM is available. For more information on where SAP IRM is available, please visit the [official documentation](https://help.sap.com/docs/returns?locale=en-US).
+        > **Note**
+        > You need to choose a region in which SAP IRM is available. For more information on where SAP IRM is available, please visit the [official documentation](https://help.sap.com/docs/returns?locale=en-US).
      
       - and click ***Create***.
 
@@ -45,7 +49,8 @@ In order to enable SAP IRM, you need to create a Subaccount in one of the suppor
 2. Add entitlements for SAP IRM to your Subaccount:
 
    - Click on the Subaccount you created in the previous step and navigate to ***Entitlements*** in the navigation menu. Then, click on ***Configure Entitlements***.
-      > **Note:** You have to select the pre-created Subaccount for the on-site TechEd hands-on workshop. Please ask your instructors for more details.
+      > **Note**
+      > You have to select the pre-created Subaccount for the on-site TechEd hands-on workshop. Please ask your instructors for more details.
       
       ![](images/5.png)
       ![](images/6.png)
@@ -57,7 +62,8 @@ In order to enable SAP IRM, you need to create a Subaccount in one of the suppor
       ![](images/9.png)
 
    - Click ***Save*** on the Entitlements view.
-      > **Note:** Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with the next exercises. 
+      > **Note**
+      > Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with the next exercises. 
       
       ![](images/10.png)
 
@@ -78,6 +84,7 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
 
         ![](images/12.png)
 
+   > **Note**
    > You should now have successfully subscribed to the SAP Intelligent Returns Management application.
 
       ![](images/12-1.png)
@@ -110,7 +117,8 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
    
    - Now, add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > **Note**
+      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/18.png)
 

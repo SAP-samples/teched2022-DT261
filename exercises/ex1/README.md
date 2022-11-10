@@ -18,7 +18,8 @@ In order to enable DI, you need to have entitlements assigned to your Subaccount
       ![](images/21.png)
 
    - Click ***Save*** on the Entitlements view.
-      > **Note:** Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with the next exercises. 
+      > **Note**
+      > Do not forget or skip this step as the entitlements will not be saved, and you cannot continue with the next exercises. 
       
       ![](images/22.png)
 
@@ -69,7 +70,8 @@ In order to use the DI application, you need to subscribe to it and assign requi
    
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
-      > **Note:** You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > **Note**
+      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
 
       ![](images/31.png)
 
@@ -113,7 +115,8 @@ In order to enable integration to SAP S/4HANA, you need to create credentials fo
       
       ![](images/37.png)
    
-   > **Note:** These credentials will be needed in the next exercise in order to configure the integration from SAP S/4HANA to DI.
+   > **Note**
+   > These credentials will be needed in the next exercise in order to configure the integration from SAP S/4HANA to DI.
 
 ## Configure content of DI .
 [//]: # (TODO)
