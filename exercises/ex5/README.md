@@ -7,7 +7,7 @@ You can use connection `DT261_00` as reference for this exercise.
 
 [//]: # (TODO: Fix this heading)
 
-## Create an OAuth client
+## Create an RFC Connection
 
 * Call transaction `SM59`
 

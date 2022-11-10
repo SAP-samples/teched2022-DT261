@@ -4,6 +4,23 @@ The RFC destination of the next exercise will use the Oauth client for authentic
 
 You will need the file from the service binding of [Exercise 1](../ex1/README.md#enable-access-to-data-ingestion-di-for-industry-cloud-solutions-apis).
 
+## Log On to S/4HANA System
+
+1. Open SAP GUI
+
+![](images/EX4_8.jpg)
+
+2. Log On to system HE4 with user DT260-<your group number> (e.g. DT261-34)
+
+![](images/EX4_9.jpg)
+
+
+![](images/EX4_10.jpg)
+
+3. Use the command field to call a transaction (e.g. `OA2C_CONFIG`)  and pre-fix the transaction code with `/n`.
+
+![](images/EX4_11.jpg)
+
 ## Create an OAuth Client Profile
 
 1. Create a new OAuth Client:
@@ -13,7 +30,7 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
       > **Note**
       > During your TechEd hands-on, you will be provided with a predefined username and password.
 
-   - Call transaction `OA2C_CONFIG`. A browser window will open. Log on with the credentials from the previous step.
+   - Call transaction `OA2C_CONFIG`. A browser window will open. Log on with the credentials from the previous step. 
 
       > **Note**
       > In case of an error like below, copy the url and enter it in a browser.
