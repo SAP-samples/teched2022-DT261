@@ -6,35 +6,33 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
 ## Log On to S/4HANA System
 
-1. Open SAP GUI
+- Open SAP GUI
 
-![](images/EX4_8.jpg)
+    ![](images/EX4_8.jpg)
 
-2. Log On to system HE4 with user DT261-<your group number> (e.g. DT261-34) <todo: password>
+- Log on to your S/4HANA system using your username and password.
 
-![](images/EX4_9.jpg)
+   ![](images/EX4_9.jpg)
 
+   ![](images/EX4_10.jpg)
 
-![](images/EX4_10.jpg)
-
-3. In this exercise: Use the command field to call a transaction (e.g. `OA2C_CONFIG`)  and pre-fix the transaction code with `/n`.
-
-![](images/EX4_11.jpg)
+   > **Note**
+   > During your TechEd hands-on, you will be provided with a predefined username (`DT261-<your participant number>`) and password.
 
 ## Create an OAuth Client Profile
 
 1. Create a new OAuth Client:
 
-   - Log on to your S/4HANA system using your username and password.
+   - Call transaction `OA2C_CONFIG` prefixed with `/n`. A browser window will open. Log on with the credentials from the previous step. 
 
-      > **Note**
-      > During your TechEd hands-on, you will be provided with a predefined username and password.
+      ![](images/EX4_11.jpg)
+      
+   > **Note**
+   > In case *Internet Explorer* is opened, copy the URL and open it in a different browser (e.g. Chrome).
 
-   - Call transaction `OA2C_CONFIG`. A browser window will open. Log on with the credentials from the previous step. 
-
-      > **Note**
-      > In case of an error like below, copy the url and enter it in a browser.
-         ![](images/teched_error1.jpg)
+   > **Note**
+   > In case of an error like below, copy the url and enter it in a browser.
+      ![](images/teched_error1.jpg)
 
    - Press the ***Create*** button.
 
