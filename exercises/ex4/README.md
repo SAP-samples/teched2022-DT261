@@ -10,14 +10,14 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
 ![](images/EX4_8.jpg)
 
-2. Log On to system HE4 with user DT260-<your group number> (e.g. DT261-34)
+2. Log On to system HE4 with user DT261-<your group number> (e.g. DT261-34)
 
 ![](images/EX4_9.jpg)
 
 
 ![](images/EX4_10.jpg)
 
-3. Use the command field to call a transaction (e.g. `OA2C_CONFIG`)  and pre-fix the transaction code with `/n`.
+3. In this exercise: Use the command field to call a transaction (e.g. `OA2C_CONFIG`)  and pre-fix the transaction code with `/n`.
 
 ![](images/EX4_11.jpg)
 
