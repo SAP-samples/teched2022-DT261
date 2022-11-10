@@ -23,6 +23,10 @@ You will configure the connection maintained in the previous exercise as Busines
 
    > The warning will state that the selected Business System is not part of the System Landscape Directory (SLO). For the purpose of this exercise the warning can be ignored.
 
+- Click the ***Create*** button in the *Prompt for customizing request* dialog.
+
+    ![](images/EX6_3.png)
+
 ## Next Steps
 
 [//]: # (TODO: Add a description of what happens next)
