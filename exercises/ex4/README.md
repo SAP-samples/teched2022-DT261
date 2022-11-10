@@ -10,7 +10,7 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
 ![](images/EX4_8.jpg)
 
-2. Log On to system HE4 with user DT261-<your group number> (e.g. DT261-34)
+2. Log On to system HE4 with user DT261-<your group number> (e.g. DT261-34) <todo: password>
 
 ![](images/EX4_9.jpg)
 
