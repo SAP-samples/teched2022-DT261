@@ -78,11 +78,11 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
       ![](images/11.png)
 
    - In the ***New Instance or Subscription*** pop-up, select:
-     - ***`SAP Intelligent Returns Management`*** for *Service*,
-     - ***`application`*** for *Plan*,
-     - Click on ***Create***.
+      - ***`SAP Intelligent Returns Management`*** for *Service*,
+      - ***`application`*** for *Plan*,
+      - Click on ***Create***.
 
-        ![](images/12.png)
+         ![](images/12.png)
 
    > **Note**
    > You should now have successfully subscribed to the SAP Intelligent Returns Management application.

@@ -45,9 +45,9 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
 
    - The line with Product should look like this: 
 
-       ![](images/EX2_8.jpg) <br>
+      ![](images/EX2_8.jpg) <br>
 
-       ![](images/EX2_11.jpg)
+      ![](images/EX2_11.jpg)
 
       > **Note**
       > It can be required to edit the entity twice, the Process Status needs to be `Activated`.
