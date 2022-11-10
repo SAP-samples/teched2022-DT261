@@ -206,7 +206,7 @@ In this section, you will configure the access to the ODS application.
 
    - From the navigation menu of BTP cockpit, navigate to ***Security*** > ***Role Collections***. Select the predefined ***~ods_apps_ODS_ADMINISTRATOR*** Role Collection and click on the ***Edit*** button in the top-right corner of the screen.
 
-      ![](images/67.png)
+      ![](images/77.jpg)
 
    - Click on the popup button in the ***Role Name*** field.
 
