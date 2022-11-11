@@ -120,12 +120,7 @@ In order to enable integration to SAP S/4HANA, you need to create credentials fo
    
    > **Note**
    > These credentials will be needed in the next exercise in order to configure the integration from SAP S/4HANA to DI.
-
-## Configure content of DI .
-[//]: # (TODO)
-
-After completing these steps you have enabled Data Ingestion for Industry Cloud Solutions and have access to its application and APIs.
-
+   
 ## Next Steps
 
 Now that you have enabled Data Ingestion for Industry Cloud Solutions, you need to configure it.

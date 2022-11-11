@@ -70,6 +70,6 @@ In this step we will configure the entities to replicated to Industry Cloud. Dep
 
 ## Next Steps
 
-[//]: # (TODO: Add a description of what happens next)
+In the next exercise, you will use these replication models and run them.
 
 ### Go back to: [**Configure the Data Replication Framework - Business System**](../ex6/README.md) or Continue to: [**Run Replication for configured entities**](../ex8/README.md)

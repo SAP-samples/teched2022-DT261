@@ -70,6 +70,6 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
 ## Next Steps
 
-[//]: # (TODO: Add a description of what happens next)
+In the next exercise you will use this OAuth Client and create an RFC connection with it.
 
 ### Go back to: [**Configure Data Ingestion for Industry Cloud Solutions**](../ex2/README.md) or Continue to: [**Configure the RFC Connection**](../ex5/README.md)

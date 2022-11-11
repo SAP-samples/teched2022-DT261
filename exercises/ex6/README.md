@@ -37,6 +37,6 @@ You will configure the connection maintained in the previous exercise as Busines
 
 ## Next Steps
 
-[//]: # (TODO: Add a description of what happens next)
+In the next exercise, you will assign this Business System to a Replication Model.
 
 ### Go back to: [**Configure the RFC Connection**](../ex5/README.md) or Continue to: [**Configure the Data Replication Framework - Replication Model**](../ex7/README.md)
