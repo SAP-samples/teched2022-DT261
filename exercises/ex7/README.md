@@ -6,32 +6,34 @@ In this step we will configure the entities to replicated to Industry Cloud. Dep
 
 1. Call transaction `DRFIMG`
 
-2. Go to Define Custom Settings for Data Replication -> Define Technical Settings -> Define Replication Models
+2. Go to Define Custom Settings for *Data Replication&* -> *Define Technical Settings* -> *Define Replication Models*
 
     ![](images/EX7_1.jpg)
 
-3. Select ***New Entries***
-
-4. Create replication model `DT261_<group number>` with a short text.
+3. Click ***New Entries***. Create a *Replication Model* called `DT261_<group number>`. Add a short text as *Description*.
 
    ![](images/EX7_2.jpg)
 
    > **Note**
    > During your TechEd Hands-On, you can use replication model `DT261_00` as a template.
 
-5. Select the replication model and click on Assign Outbound Implementation
+4. Select the Replication Model via its checkbox and double-click on *Assign Outbound Implementation*
    
    ![](images/EX7_3.jpg)
 
-6. For the example of the supplier this looks like this
+5. Click ***New Entries***. Add ***`CIC_SUPLR`*** (for Supplier) as *Outbound Implementation*.
 
-    ![](images/EX7_4.jpg)
+   ![](images/EX7_4.jpg)
 
-7. Select the Outbound Implementations and click on ***Assign Target Systems for Repl. Model/Outb. Impl*** and assign the Business System defined in exercise 6 to the Outbound Implementation
+6. Select the Outbound Implementation (e.g. ***`CIC_SUPLR`***) via its checkbox and double-click on ***Assign Target Systems for Repl. Model/Outb. Impl***.
 
-    ![](images/EX7_5.jpg)
+   ![](images/EX7_5.jpg)
 
-8. Add other Outbound Implementations to the Replication Model. Don't forget to assign a target system to each outbound implementation (see step 6.) 
+7. Click ***New Entries***. Assign the *Business System* defined in exercise 6 to the Outbound Implementation.
+
+   ![](images/EX7_7.png)
+
+8. Repeat steps 4 to 7 for each of the Outbound Implementations below. Don't forget to assign a target system to each outbound implementation (step 6 & 7). 
 
 | **Outbound Implementation** |
 |-----------------------------|
@@ -60,7 +62,7 @@ In this step we will configure the entities to replicated to Industry Cloud. Dep
 | CIC_MCH                     |
 | CIC_PROD                    |
 
-9. Save your changes.
+9. Click ***Save***.
 
 10. Return to the Replication Model overview, select your Replication Model and press ***Activate***.
 

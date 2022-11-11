@@ -9,7 +9,7 @@ You will configure the connection maintained in the previous exercise as Busines
 
 - Go to *Data Replication* -> *Define Custom Settings for Data Replication* -> *Define Technical Settings* -> *Define Technical Settings for Business Systems*
 
-    ![](images/EX6_1.jpg)
+    ![](images/EX6_1.png)
 
 - Click the ***New Entries*** button
 
@@ -21,11 +21,19 @@ You will configure the connection maintained in the previous exercise as Busines
 
 - Click the ***Save*** button - ignore the warning.
 
-   > The warning will state that the selected Business System is not part of the System Landscape Directory (SLO). For the purpose of this exercise the warning can be ignored.
+   > The warning will state that the selected Business System is not part of the System Landscape Directory (SLD). For the purpose of this exercise the warning can be ignored.
 
 - Click the ***Create*** button in the *Prompt for customizing request* dialog.
 
     ![](images/EX6_3.png)
+
+- Add a *Short Description* and click the ***Save*** button in the *Create Request* dialog.
+
+    ![](images/EX6_4.png)
+
+- Click the ***Save*** (green checkmark) button in the *Prompt for customizing request* dialog.
+
+    ![](images/EX6_5.png)
 
 ## Next Steps
 

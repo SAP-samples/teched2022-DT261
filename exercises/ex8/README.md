@@ -8,9 +8,9 @@ You will use the Replication Model configured in exercise 7.
 
 2. Enter the Replication Model you maintained in exercise 7. It should be `DT261_<group number>`.
 
-3. Select 'Outbound Implementation' `CIC_PLANT`.
+3. Select *Outbound Implementation* ***`CIC_PLANT`***.
 
-4. Select 'Initialization' in section Replication Mode. Avoid running DRFOUT in initial mode setting for larger entities (like product) to avoid longer wait times
+4. Select ***Initialization*** in section Replication Mode. Avoid running DRFOUT in initial mode setting for larger entities (like product) to avoid longer wait times
 
    ![](images/EX8_3.jpg)
 
