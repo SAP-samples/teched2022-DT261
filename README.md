@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called DT261 - Simplify Data Integration Between SAP S/4HANA and SAP’s Industry Cloud.  
+This repository contains the material for the SAP TechEd 2022 Hands-On Lab session called DT261 - Simplify Data Integration Between SAP S/4HANA and SAP’s Industry Cloud.  
 
 ## Overview
 
@@ -22,7 +22,7 @@ To complete the exercises below, you need access (licenses) to the following SAP
 - SAP Fiori Launchpad
 
 > **Note**
-> You will be provided with an environment having the above requirements available for the on-site SAP TechEd Hands-On Lab workshop.
+> You will be provided with an environment having the above requirements available for the SAP TechEd Hands-On Lab workshop.
 
 ## Exercises
 

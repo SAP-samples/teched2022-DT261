@@ -3,12 +3,12 @@
 In this exercise, you will enable and configure the usage of SAP Order and Delivery Scheduling Industry Cloud solution.
 
 > **Warning**
-> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Order and Delivery Scheduling documentation](https://help.sap.com/docs/ORDER_DELIVERY_SCHEDULE_OD/7ddeeefdcf4b4ae0ad42a5990a781c9e/4d2d354732b94364823e14fdb2d10e02.html?locale=en-US) for the most recent version.
+> The content of this exercise is up-to-date as of the SAP TechEd Hands-On Lab 2022. Please go to the official [SAP Order and Delivery Scheduling documentation](https://help.sap.com/docs/ORDER_DELIVERY_SCHEDULE_OD/7ddeeefdcf4b4ae0ad42a5990a781c9e/4d2d354732b94364823e14fdb2d10e02.html?locale=en-US) for the most recent version.
 
 ## Assign entitlements for the SAP Order and Delivery Scheduling (ODS) Industry Cloud solution
 
 > **Note**
-> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+> During your SAP TechEd Hands-On Lab, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
 
 In order to enable ODS you need to have entitlements assigned to your Subaccount.
 
@@ -122,7 +122,7 @@ In order to be able to use the ODS capabilities, you need to configure it in the
    - Add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
       > **Note**
-      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
 
       ![](images/55.png)
 
@@ -226,7 +226,7 @@ In this section, you will configure the access to the ODS application.
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
 
       > **Note**
-      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
 
       ![](images/70.jpg)
 
@@ -237,7 +237,7 @@ In this section, you will configure the access to the ODS application.
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
 
       > **Note**
-      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
 
       ![](images/74.jpg)
 
@@ -248,7 +248,7 @@ In this section, you will configure the access to the ODS application.
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click ***Save** button.
 
       > **Note**
-     > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+     > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
 
       ![](images/76.jpg)
 

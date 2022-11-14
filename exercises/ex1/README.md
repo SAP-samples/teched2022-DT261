@@ -3,12 +3,12 @@
 In this exercise, you will enable Data Ingestion for Industry Cloud solutions (DI). It is used as an integration point to SAP S/4HANA.
 
 > **Warning**
-> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
+> The content of this exercise is up-to-date as of SAP TechEd Hands-On Lab 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
 
 ## Assign entitlements for Data Ingestion for Industry Cloud Solutions.
 
 > **Note**
-> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+> During your SAP TechEd Hands-On Lab, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
 
 In order to enable DI, you need to have entitlements assigned to your Subaccount.
 
@@ -77,7 +77,7 @@ In order to use the DI application, you need to subscribe to it and assign requi
    - Now add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
       > **Note**
-      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
 
       ![](images/31.png)
 

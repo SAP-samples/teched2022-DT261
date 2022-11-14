@@ -5,7 +5,7 @@ The RFC destination of the next exercise will use the Oauth client for authentic
 You will need the file from the service binding of [Exercise 1](../ex1/README.md#enable-access-to-data-ingestion-di-for-industry-cloud-solutions-apis).
 
 > **Warning**
-> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
+> The content of this exercise is up-to-date as of the SAP TechEd Hands-On Lab 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
 
 ## Log On to S/4HANA System
 
@@ -20,7 +20,7 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
    ![](images/EX4_10.jpg)
 
    > **Note**
-   > During your TechEd hands-on, you will be provided with a predefined username (`DT261-<your participant number>`) and password.
+   > During your SAP TechEd Hands-On Lab, you will be provided with a predefined username (`DT261-<your participant number>`) and password.
 
 ## Create an OAuth Client Profile
 

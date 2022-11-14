@@ -3,7 +3,7 @@
 In this exercise, you will enable and configure usage of the SAP Intelligent Returns Management Industry Cloud solution.
 
 > **Warning**
-> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Intelligent Returns Management documentation](https://help.sap.com/docs/returns/fb041e275d964ef0944a80f2592d411a/94618461238747ffb8b204ff16bc4546.html?locale=en-US) for the most recent version.
+> The content of this exercise is up-to-date as of the SAP TechEd Hands-On Lab 2022. Please go to the official [SAP Intelligent Returns Management documentation](https://help.sap.com/docs/returns/fb041e275d964ef0944a80f2592d411a/94618461238747ffb8b204ff16bc4546.html?locale=en-US) for the most recent version.
 
 ## Login to SAP Business Technology Platform (BTP) Global Account
 
@@ -16,7 +16,7 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
    - Provide your username and password and press ***Log On***.
       
       > **Note**
-      > During your TechEd Hands-On, you will be provided with a predefined username and password.
+      > During your SAP TechEd Hands-On Lab, you will be provided with a predefined username and password.
 
       ![](images/1.png)
 
@@ -27,7 +27,7 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
 ## Create your Subaccount and assign entitlements for SAP Intelligent Returns Management (IRM)
 
 > **Note**
-> During your TechEd Hands-On, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
+> During your SAP TechEd Hands-On Lab, you will be provided with a Subaccount with pre-assigned entitlements. You can skip this section.
 
 In order to enable SAP IRM, you need to create a Subaccount in one of the supported regions and assign IRM entitlements to it.
 
@@ -54,7 +54,7 @@ In order to enable SAP IRM, you need to create a Subaccount in one of the suppor
 
    - Click on the Subaccount you created in the previous step and navigate to ***Entitlements*** in the navigation menu. Then, click on ***Configure Entitlements***.
       > **Note**
-      > You have to select the pre-created Subaccount for the on-site TechEd hands-on workshop. Please ask your instructors for more details.
+      > You have to select the pre-created Subaccount for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.
       
       ![](images/5.png)
       ![](images/6.png)
@@ -122,7 +122,7 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
    - Now, add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
 
       > **Note**
-      > You have to use the pre-created user for the on-site TechEd hands-on workshop. Please ask your instructors for more details.  
+      > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
 
       ![](images/18.png)
 

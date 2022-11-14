@@ -3,7 +3,7 @@
 In this step we will configure the entities to replicated to Industry Cloud. Depending on the application in scope different entities are required (order sourcing requires different entities than promotion planning). A replication model groups together outbound implementations for the individual entities (product, plant, sales organization etc.). We plan to automate this configuration. In the exercise we will configure it manually.
 
 > **Warning**
-> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
+> The content of this exercise is up-to-date as of the SAP TechEd Hands-On Lab 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
 
 ## Maintain a Replication Model
 
@@ -18,7 +18,7 @@ In this step we will configure the entities to replicated to Industry Cloud. Dep
    ![](images/EX7_2.jpg)
 
    > **Note**
-   > During your TechEd Hands-On, you can use replication model `DT261_00` as a template.
+   > During your SAP TechEd Hands-On Lab, you can use replication model `DT261_00` as a template.
 
 4. Select the Replication Model via its checkbox and double-click on *Assign Outbound Implementation*
    
