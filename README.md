@@ -39,7 +39,7 @@ The exercises must be executed in the order below:
         - [Configure the Data Replication Framework - Replication Model](exercises/ex7/README.md)
         - [Run Replication for configured entities](exercises/ex8/README.md)
 - [Enable SAP Order and Delivery Scheduling solution](exercises/ex3/README.md)
-- [Run the biz scenario with IRM and ODS](exercises/ex9/README.md) 
+- [Run the business scenario with IRM and ODS](exercises/ex9/README.md) 
 
 ## How to obtain support
 

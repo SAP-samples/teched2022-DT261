@@ -2,6 +2,9 @@
 
 In this exercise, you will enable and configure the usage of SAP Order and Delivery Scheduling Industry Cloud solution.
 
+> **Warning**
+> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Order and Delivery Scheduling documentation](https://help.sap.com/docs/ORDER_DELIVERY_SCHEDULE_OD/7ddeeefdcf4b4ae0ad42a5990a781c9e/4d2d354732b94364823e14fdb2d10e02.html?locale=en-US) for the most recent version.
+
 ## Assign entitlements for the SAP Order and Delivery Scheduling (ODS) Industry Cloud solution
 
 > **Note**

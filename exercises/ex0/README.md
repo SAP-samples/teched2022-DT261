@@ -2,6 +2,9 @@
 
 In this exercise, you will enable and configure usage of the SAP Intelligent Returns Management Industry Cloud solution.
 
+> **Warning**
+> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Intelligent Returns Management documentation](https://help.sap.com/docs/returns/fb041e275d964ef0944a80f2592d411a/94618461238747ffb8b204ff16bc4546.html?locale=en-US) for the most recent version.
+
 ## Login to SAP Business Technology Platform (BTP) Global Account
 
 1. Log in to the SAP BTP cockpit:

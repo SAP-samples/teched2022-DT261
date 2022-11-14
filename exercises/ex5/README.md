@@ -5,6 +5,9 @@ The RFC connection will be used for the outbound calls to Data Ingestion.
 
 You can use connection `DT261_00` as reference for this exercise.
 
+> **Warning**
+> The content of this exercise is up-to-date as of TechEd 2022. Please go to the official [SAP Data Ingestion for Industry Cloud documentation](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html?locale=en-US) for the most recent version.
+
 ## Create an RFC Connection
 
 * Call transaction `SM59`
