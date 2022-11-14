@@ -8,7 +8,7 @@ In this exercise, you will enable and configure usage of the SAP Intelligent Ret
 ## Login to SAP Business Technology Platform (BTP) Global Account
 
 1. Log in to the SAP BTP cockpit:
-   - Open [https://cockpit.**us21**.hana.ondemand.com/cockpit/](https://cockpit.us21.hana.ondemand.com/cockpit/#).
+   - Open [https://cockpit.**us21**.hana.ondemand.com/cockpit/?idp=tdcteched2.accounts.ondemand.com](https://cockpit.us21.hana.ondemand.com/cockpit/?idp=tdcteched2.accounts.ondemand.com#).
 
       > **Note**
       > You can exchange the ***us21*** from the URL with another region in case you are not based in the USA.
