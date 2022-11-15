@@ -20,7 +20,7 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
    ![](images/EX4_10.jpg)
 
    > **Note**
-   > During your SAP TechEd Hands-On Lab, you will be provided with a predefined username (`DT261-<your participant number>`) and password.
+   > During your SAP TechEd Hands-On Lab, you will be provided with a predefined username (`DT261_<your participant number>`) and password.
 
 ## Create an OAuth Client Profile
 

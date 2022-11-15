@@ -7,11 +7,21 @@ In this exercise, you will configure the source systems (S/4HANA Business System
 
 ## Maintain Business System and Entities
 
-To start you will launch the Data Ingestion for Industry Cloud Solutions from your Subaccount. 
+1. Open the Data Ingestion Application:
 
-![](images/EX2_1.jpg)
+   - To start you will launch the Data Ingestion for Industry Cloud Solutions application from your Subaccount. 
 
-1. Maintain a new Business System:
+      ![](images/EX2_1.jpg)
+
+   - Enter your *Subdomain name* and click ***Sign in with OpenID***. Lowercase your subdomain name before entering (e.g. ***`DT261-000`*** becomes ***`dt261-000`***).
+
+      ![](images/EX2_12.png)
+
+      > **Note**
+      > You can find the subdomain name on the *Overview* page of your Subaccount.
+         ![](images/EX2_13.png)
+
+2. Maintain a new Business System:
 
    - Go to the ***System Information*** tab.
 
@@ -29,7 +39,7 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
        > The system name `S4HANAHE4` is specified in the source system System Landscape Directory (SLD). It typically contains a client number so that one Data Ingestion tenant can receive data from 2 clients of the same source system.
 
       
-2. Assign the Business System to the `Product` Object:
+3. Assign the Business System to the `Product` Object:
 
    - Go to ***Data Ingestion*** tab. 
 
@@ -56,7 +66,7 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
       > It can be required to edit the entity twice, the Process Status needs to be `Activated`.
 
 
-3. Assign the Business System to other Data Objects:
+4. Assign the Business System to other Data Objects:
 
     - Repeat step 2 and assign the Business System to the other data objects listed below:
       - Country Codes
@@ -70,7 +80,7 @@ To start you will launch the Data Ingestion for Industry Cloud Solutions from yo
       - Sales Organization
       - UnitOfMeasureCodes
 
-4. Activate all Data Objects:
+5. Activate all Data Objects:
 
     - In the ***Data Objects*** tab:
       - Check the checkbox to select all Data Objects,
