@@ -119,10 +119,13 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
 
       ![](images/17.png)
    
-   - Now, add your user to the Role Collection by entering your user id in the ***ID*** field as shown on the screenshot. Click on your user from the value help. Then, click the ***Save*** button.
+   - Now add your user to the Role Collection. In the ***Users*** view:
+     - Enter, your user's email address as ***ID*** and ***E-Mail***.
+     - Select ***`Custom IAS tenant`*** for ***Identity Provider***
+     - Click the ***Save*** button.
 
       > **Note**
-      > You have to use the pre-created user for the SAP TechEd Hands-On Lab. Please ask your instructors for more details.  
+      > This setup is specific to using a custom IAS tenant. For the SAP TechEd Hands-On Lab you have to use the pre-created user. Please ask your instructors for more details.  
 
       ![](images/18.png)
 
