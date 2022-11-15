@@ -114,7 +114,7 @@ In order to be able to use the SAP IRM capabilities, you need to enable the IRM 
    - In the ***Select: Role*** view:
      - Select ***`All`*** for ***Role Name***
      - Select ***`irm!*****`*** for ***Application Identifier***, 
-     - Check the checkboxes for ***`ReturnObjectREAD`***, ***`ReturnObjectWRITE`***, and ***`SettingsREAD`*** Roles,
+     - Check the checkbox as in the screenshot to select all ***Roles***,
      - Click the ***Add*** button.
 
       ![](images/17.png)
