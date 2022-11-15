@@ -63,7 +63,7 @@ You will need the file from the service binding of [Exercise 1](../ex1/README.md
 
    - Enter the ***`url`*** from the service binding file in the ***Token Endpoint*** field, remove the leading `https://` and append `/oauth/token?grant_type=client_credentials&response_type=token` to it.
 
-     ![](images/teched6.jpg)
+     ![](images/ex4_6.jpg)
 
    - Select ***Client Credentials*** from the *Selected Grant Type* selector.
 
