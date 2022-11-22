@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2022-DT261)](https://api.reuse.software/info/github.com/SAP-samples/teched2022-DT261)
+
 # DT261 - Simplify Data Integration Between SAP S/4HANA and SAP’s Industry Cloud
 
 ## Description
