@@ -23,15 +23,15 @@ In this exercise, you will configure the source systems (S/4HANA Business System
 
 2. Maintain a new Business System:
 
-   - Go to the ***System Information*** tab.
+   - Go to the ***Systems*** page.
 
-      ![](images/EX2_3.jpg)
+      ![](images/EX2_3.png)
 
    - Click the ***Add*** button.
 
-       ![](images/EX2_2.jpg)
+       ![](images/EX2_2.png)
 
-   - Set the *System Name* `S4HANAHE4` and click the ***Add*** button.
+   - Set the *System Name* to `S4HANAHE4` and click the ***Add*** button.
 
        ![](images/EX2_4.jpg)
 
@@ -41,11 +41,11 @@ In this exercise, you will configure the source systems (S/4HANA Business System
       
 3. Assign the Business System to the `Product` Object:
 
-   - Go to ***Data Ingestion*** tab. 
+   - Go to the ***Data Entities*** page. 
 
-       ![](images/EX2_5.jpg)
+       ![](images/EX2_5.png)
 
-   - Select the ***Edit*** (*Pencil*) button of the `Product` Data Object. 
+   - Select the ***Edit*** (*Pencil*) button of the `Product` Data Entity. 
 
        ![](images/EX2_6.jpg)
 
